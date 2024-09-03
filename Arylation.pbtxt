@@ -1,0 +1,4760 @@
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 41.48
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 81.6
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TsOH*H2O(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.4
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 7.52
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 60.8
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 48.84
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 15.84
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[NH4+].[NH4+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.62
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 33.48
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC([O-])=O.CC([O-])=O.[Cu+2]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=CC(OC(C)=O)=C1OC(C)=O"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "F[N+]1(CC2)CC[N+]2(CCl)CC1.F[B-](F)(F)F.F[B-](F)(F)F"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.4
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=CC=C1)(NF)=O"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.56
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene( 1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 81.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.5 mL) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "ethylbenzene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(CC)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "(2-chloroehyl)benzene(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(CCCl)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 63.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "anisole(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(OC)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "oxydibenzene(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(OC3=CC=CC=C3)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "fluorobnzene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(F)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 52.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "chlorobenzene(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(Cl)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "bromobenzene(0.9 mmol) + DMF(0.6 mmol)  TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(Br)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "acetophenone(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC(C2=CC=CC=C2/C(C)=N/OC)=CC=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "acetophenone(1.5 mL) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC(C2=CC=CC=C2/C(C)=N/OC)=CC=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "methyl benzoate(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(C1=CC(C2=CC=CC=C2/C(C)=N/OC)=CC=C1)OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 79.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "methyl benzoate(1.5 mL) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(C1=CC(C2=CC=CC=C2/C(C)=N/OC)=CC=C1)OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "o-xylene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C(C)=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "1-fluoro-3-methoxybenzene(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(OC)C=C2F)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 55.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "methyl 2-methylbenzoate(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(C1=CC(C2=CC=CC=C2/C(C)=N/OC)=CC=C1C)OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "1,2,3,4-tetrahydronaphthalene(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C3CCCCC3=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 52.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "2,3-dihydrobenzofuran(0.9 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(OCC3)C3=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 67.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(p-tolyl)ethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=C(C)C=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=C(C)C=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 83.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(m-tolyl)ethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC(C)=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC(C)=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(3,4-dimethylphenyl)ethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=C(C)C(C)=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC(C)=C(C)C=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(3-butylphenyl)ethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC(CCCC)=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC(CCCC)=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 63.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(3-methoxyphenyl)ethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC(OC)=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC(OC)=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 66.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(4-chlorophenyl)ethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=C(Cl)C=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=C(Cl)C=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(4-fluorophenyl)ethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=C(F)C=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=C(F)C=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 42.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(2-fluorophenyl)propan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CO/N=C(C1=CC=CC=C1F)\\CC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=C(F)C=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(naphthalen-1-yl)ethan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=C2C=CC=CC2=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=C2C=CC=CC2=CC=C1C3=CC=C(C)C=C3)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 39.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylpropan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-(p-tolyl)propan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC/C(C1=CC=C(C)C=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC/C(C1=CC=C(C)C=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 81.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylbutan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCC/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CCC/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-2-methyl-1-phenylpropan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C)/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 52.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-4-chloro-1-phenylbutan-1-one O-methyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "ClCCC/C(C1=CC=CC=C1)=N\\OC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C2=CC=CC=C2/C(CCCCl)=N/OC)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-ethyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OCC"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OCC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "(E)-1-phenylethan-1-one O-benzyl oxime"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C/C(C1=CC=CC=C1)=N\\OCC2=CC=CC=C2"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol) + DMF(0.6 mmol) + TfOH(0.3 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C/C(C1=CC=CC=C1C2=CC=C(C)C=C2)=N\\OCC3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "1,1-dimethyl-3-phenylurea"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CN(C)C(NC1=CC=CC=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "tolune(1.8 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(NC1=CC=CC=C1C2=CC=C(C)C=C2)N(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "1,1-dimethyl-3-phenylurea"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CN(C)C(NC1=CC=CC=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "fluorobenzene(1.8 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(NC1=CC=CC=C1C2=CC=C(F)C=C2)N(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "N-phenylacetamide"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(NC1=CC=CC=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "toluene(1.8 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(NC1=CC=CC=C1C2=CC=C(C)C=C2)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "N-phenylacetamide"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(NC1=CC=CC=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "anisole(0.9 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(NC1=CC=CC=C1C2=CC=C(OC)C=C2)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 91.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "N-phenylacetamide"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(NC1=CC=CC=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "acetophenone(0.9 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(NC1=CC=CC=C1C2=CC=CC(C(C)=O)=C2)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 60.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "N-phenylacetamide"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(NC1=CC=CC=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]S(=O)(OOS(=O)([O-])=O)=O.[Na+].[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "methyl benzoate(0.9 mmol)"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(C1=CC(C2=CC=CC=C2NC(C)=O)=CC=C1)OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 54.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry\342\210\222Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}

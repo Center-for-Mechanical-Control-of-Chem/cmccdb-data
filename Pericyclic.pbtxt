@@ -1,0 +1,3120 @@
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 98.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259031"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259032"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259033"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259034"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259035"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259036"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 96.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259037"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259038"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259039"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259040"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259041"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259042"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259043"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 79.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259044"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259045"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259046"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259047"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259048"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259049"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259050"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259051"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259052"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259053"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259054"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 73.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259055"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "cyclopentadiene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 120.0
+            units: MICROLITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 48.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259057"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O  "
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259058"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O "
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259059"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O "
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 83.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259060"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259061"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259062"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 54.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259063"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O "
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259064"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259065"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259066"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259067"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "5-methylene-1-(p-tolyl)-1,5-dihydro-2H-pyrrol-2-one"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Wuhu"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259068"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}

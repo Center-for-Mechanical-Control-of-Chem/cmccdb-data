@@ -1,0 +1,1635 @@
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 13.09
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.36
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.94
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 2.08
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.04
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 26.95
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.95
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 3.3
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 200.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 19.44
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 7.29
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.86
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 22.78
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.34
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.34
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.05
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.1
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.1
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2-dimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "methoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "3,4,5-trimethoxyphenol  "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=CC=C(OC)C(OC)=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.52
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "2,3,4-trimethoxyphenol  "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=CC(OC)=C(OC)C(OC)=C1"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.63
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.55
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.25
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.25
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 200.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.95
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "1,2,3-trimethoxybenzene "
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 300.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O + d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.9
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}

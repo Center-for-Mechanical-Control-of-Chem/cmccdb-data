@@ -1,0 +1,83 @@
+  identifiers {
+    type: REACTION_TYPE
+    value: "$Reaction_type$"
+  }
+  inputs {
+    key: "$Reactant1_name$"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "$Reactant1_smiles$"
+        }
+        amount {
+          moles {
+            value: $Reactant1_amount$
+            units: MILLIMOLE
+          }
+        }
+        is_limiting: true
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "$Reactant2_smiles$"
+        }
+        amount {
+          moles {
+            value: $Reactant2_amount$
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "$Reactant3_smiles$"
+        }
+        amount {
+          moles {
+            value: $Reactant3_amount$
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "$Product1_smiles$"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: $Product1_yield$
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "$URL$"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }

@@ -1,0 +1,3910 @@
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Li+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[K+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 98.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Rb+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cs+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1 "
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC[NH+](CC)CC[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1Br)CCC1=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1 "
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Li+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1 "
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Li+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Li+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 9.2
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 3.6
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.1
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cl[Cu-2](Cl)([OH2+])[OH2+]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.25
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 69.3
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.11
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.28
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 41.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 52.47
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 32.8
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 53.35
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 49.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.06
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.74
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 11.75
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.12
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.46
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 18.56
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 44.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 41.8
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.3
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 47.3
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.6
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 45.76
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.78
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.5
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    city: "Montreal"
+    doi: "10.1039/c3gc42104j"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}

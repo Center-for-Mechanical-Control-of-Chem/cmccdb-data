@@ -1,0 +1,2659 @@
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(OC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(OC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(OC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "1, 8-napthalic anhydride"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(OC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCCCCCCCCCCCN"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCCCCCCCCCC)C(C2=CC=C(C3=CC=C4C(N(CCCCCCCCCCCC)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCCCCCCCN"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCCCCCC)C(C2=CC=C(C3=CC=C4C(N(CCCCCCCC)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 60.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCCCCCCCN"
+        }
+        amount {
+          moles {
+            value: 31.85
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCCCCCC)C(C2=CC=C(C3=CC=C4C(N(CCCCCCCC)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 91.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCOC"
+        }
+        amount {
+          moles {
+            value: 31.85
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCOC)C(C2=CC=C(C3=CC=C4C(N(CCCOC)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCN(C)C"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCN(C)C)C(C2=CC=C(C3=CC=C4C(N(CCCN(C)C)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 50500.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCN(C)C"
+        }
+        amount {
+          moles {
+            value: 31.85
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCN(C)C)C(C2=CC=C(C3=CC=C4C(N(CCCN(C)C)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCO"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCO)C(C2=CC=C(C3=CC=C4C(N(CCO)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCC2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(CCCC6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCC2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(CCC6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 31.85
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 91.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(OC)C=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=C(OC)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 96.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(C)C=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=C(C)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=C(C(F)(F)F)C=C1"
+        }
+        amount {
+          moles {
+            value: 31.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(F)C=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=C(F)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O.FF"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C[C@H](N)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 31.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 23.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC(CC)=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=CC(CC)=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=CC(CC)=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 33.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C[O-])C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(C1=CC=C2C3=C4C5=C(C(N(C6=CC(C[O-])=CC=C6)C(C5=CC=C4C7=CC=C8C1=C72)=O)=O)C=C3)N(C9=CC(C[O-])=CC=C9)C8=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 60.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=C(N)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OC)C(OC)=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=C(OC)C(OC)=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 47.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OC)C=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=C(OC)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 63.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=C(C(C)C)C=CC=C1C(C)C"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=C(C(C)C)CCC=C2C(C)C)C(C3=CC=C(C4=CC=C5C(N(C6=C(C(C)C)C=CC=C6C(C)C)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C([N+]([O-])=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OO[N])C=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=C([N+]([O-])=O)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 73.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CCC(Br)C=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=C(Br)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(/N=N/C2=CC=CC=C2)C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CCC(/N=N/C3=CC=CC=C3)C=C2)C(C4=CC=C(C5=CC=C6C(N(C7=CC=C(/N=N\\C8=CC=CC=C8)C=C7)C(C9=CC=C%10C5=C96)=O)=O)C%11=C%10C=CC1=C4%11)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "PTCDA"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC2=C1C=CC=C2"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=C3C=CC=CC3=CC=C2)C(C4=CC=C(C5=CC=C6C(N(C7=C8C=CC=CC8=CC=C7)C(C9=CC=C%10C5=C96)=O)=O)C%11=C%10C=CC1=C4%11)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 55.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}

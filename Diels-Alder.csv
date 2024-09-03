@@ -1,0 +1,107 @@
+﻿Reaction_type,Reactant1_smiles,Reactant1_name,Reactant1_amount,Reactant2_smiles,Reactant2_name,Reactant2_amount,Reactant3_smiles,Reactant3_name,Reactant3_amount,Product1_smiles,Product1_yield,Temperature,Mechanical_treatment,Treatment_magnitude,Treatment_duration,Catalyst,URL
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2.CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4.CS(NCCC=C)(=O)=O,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4.,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,1,,Elastomeric tip arrays,0,0,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2.,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4.,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,1.97 ± 0.02,,Elastomeric tip arrays,1.91 ± 1.63,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2.,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4.,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,2.29 ± 0.02,,Elastomeric tip arrays,5.17 ± 3.13,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2.,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4.,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,2.44 ± 0.11,,Elastomeric tip arrays,9.81 ± 5.76,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2.,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4.,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,2.81 ± 0.11,,Elastomeric tip arrays,16.07 ± 6.8,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2.,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4.,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,3.00 ± 0.14,,Elastomeric tip arrays,22.89 ± 7.9,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,3.19 ± 0.09,,Elastomeric tip arrays,29.97 ± 8.6,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,3.28 ± 0.17,,Elastomeric tip arrays,36.78 ± 9.6,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,3.55 ± 0.19,,Elastomeric tip arrays,47.96 ± 9.7,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,3.24 ± 0.19,,Elastomeric tip arrays,60.49 ± 4.0,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,3.44 ± 0.28,,Elastomeric tip arrays,69.21 ± 6.2,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,3.24 ± 0.34,,Elastomeric tip arrays,78.75 ± 7.4,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,C12=CC=CC=C1C=C3C(C=CC=C3)=C2,Anthracene,,CC/[N+](CC)=C1C=CC(C(O2)=C/1)=C(C3=C([S-](=O)=O)C=CC=C3)C4=C2C=C(N(CC)CC)C=C4,Alk,,CS(NCCC=C)(=O)=O,N-(but-3-en-1-yl)methanesulfonamide,,,3.61 ± 0.18,,Elastomeric tip arrays,89.38 ± 10,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,1,,Elastomeric tip arrays,0,0,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,2.09 ± 0.07,,Elastomeric tip arrays,1.91 ± 1.63,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,2.45 ± 0.09,,Elastomeric tip arrays,5.17 ± 3.13,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,2.32 ± 0.40,,Elastomeric tip arrays,9.81 ± 5.76,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,3.07 ± 0.29,,Elastomeric tip arrays,16.07 ± 6.8,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,2.84 ± 0.07,,Elastomeric tip arrays,22.89 ± 7.9,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,3.18 ± 0.33,,Elastomeric tip arrays,29.97 ± 8.6,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,3.46 ± 0.25,,Elastomeric tip arrays,36.78 ± 9.6,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,3.40 ± 0.11,,Elastomeric tip arrays,47.96 ± 9.7,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,2.84 ± 0.26,,Elastomeric tip arrays,60.49 ± 4.0,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,3.09 ± 0.15,,Elastomeric tip arrays,69.21 ± 6.2,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,3.40 ± 0.15,,Elastomeric tip arrays,78.75 ± 7.4,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C(C)=C)=O)=S,Mal,,[Cl-],Chloride,,,3.64 ± 0.21,,Elastomeric tip arrays,89.38 ± 10,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,1,,Elastomeric tip arrays,0,0,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,1.87 ± 0.37,,Elastomeric tip arrays,1.91 ± 1.63,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.28 ± 0.19,,Elastomeric tip arrays,5.17 ± 3.13,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.09 ± 0.13,,Elastomeric tip arrays,9.81 ± 5.76,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.33 ± 0.09,,Elastomeric tip arrays,16.07 ± 6.8,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.21 ± 0.23,,Elastomeric tip arrays,22.89 ± 7.9,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.33 ± 0.13,,Elastomeric tip arrays,29.97 ± 8.6,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.44 ± 0.15,,Elastomeric tip arrays,36.78 ± 9.6,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.57 ± 0.18,,Elastomeric tip arrays,47.96 ± 9.7,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.62 ± 0.31,,Elastomeric tip arrays,60.49 ± 4.0,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.96 ± 0.19,,Elastomeric tip arrays,69.21 ± 6.2,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,2.87 ± 0.01,,Elastomeric tip arrays,78.75 ± 7.4,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CN(C)C1=CC(O2)=C(C=C1)C(C3=C(C([O-])=O)C=C(C(C4=O)C(C=C4)=O)C=C3)=C(C2=C/5)C=CC5=[N+](C)/C,Anthracene,,,Macr,,,,,,3.16 ± 0.97,,Elastomeric tip arrays,89.38 ± 10,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,1,,Elastomeric tip arrays,0,0,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,3.70 ± 0.90,,Elastomeric tip arrays,1.91 ± 1.63,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,3.58 ± 0.70,,Elastomeric tip arrays,5.17 ± 3.13,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,4.04 ± 0.76,,Elastomeric tip arrays,9.81 ± 5.76,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,4.26 ± 0.58,,Elastomeric tip arrays,16.07 ± 6.8,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,4.44 ± 0.73,,Elastomeric tip arrays,22.89 ± 7.9,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,4.41 ± 0.13,,Elastomeric tip arrays,29.97 ± 8.6,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,3.80 ± 0.11,,Elastomeric tip arrays,36.78 ± 9.6,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,4.79 ± 0.74,,Elastomeric tip arrays,47.96 ± 9.7,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,4.92 ± 0.23,,Elastomeric tip arrays,60.49 ± 4.0,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,4.42 ± 0.22,,Elastomeric tip arrays,69.21 ± 6.2,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,4.61 ± 0.31,,Elastomeric tip arrays,78.75 ± 7.4,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+Diels-Alder reaction,CCN(CC)C1=CC(O2)=C(C=C1)C(C3=C(C(O)=O)C=CC=C3)=C(C2=C/4)C=CC4=[N+](CC)/CC,Anthracene,,CNC(OCCOC(C=C)=O)=S,Acr,,[Cl-],Chloride,,,4.03 ± 0.63,,Elastomeric tip arrays,89.38 ± 10,0.166666,Si/SiO2,https://www.science.org/doi/10.1126/science.adf5273
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,

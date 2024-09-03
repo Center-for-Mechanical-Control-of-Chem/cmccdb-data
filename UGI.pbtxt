@@ -1,0 +1,1985 @@
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 66.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "EtOH"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 23.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "acetonitrile"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 36.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DMF"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 21.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCM"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 44.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "benzene"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 35.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CCl4"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 49.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 63.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 69.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 72.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI (coupling)"
+  }
+  inputs {
+    key: "benzaldehyde"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369#:~:text=The%20Ugi%20reaction%20is%20one,that%20gave%20products%205a%E2%80%935i"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "THC"
+        orcid: "0000-0000-0000-0000"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}

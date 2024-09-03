@@ -1,0 +1,4380 @@
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 86.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(I)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(I)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.6
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=CC=C1I"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "IC1=CC=CC=C1C#CC2=CC=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(I)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(I)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 9.3
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(I)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "IC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 24.57
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 26.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 33.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 7.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([N+]([O-])=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=[N+](C1=CC=C(C#C[Si](C)(C)C)C=C1)[O-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 66.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([N+]([O-])=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=[N+](C1=CC=C(C#CC2=CC=CC=C2)C=C1)[O-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 5.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.32
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=CC=C1Br)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "phenylactylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=CC=C1C#CC2=CC=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=CC=C1C#C[Si](C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 39.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 37.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 44.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=CC=C1C#C[Si](C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 86.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.6
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "trimethylsilylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}

@@ -1,0 +1,5525 @@
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylpyridine"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "1-ethynylcyclohexene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CCCCC1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CCCCC2)=CCCCC1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 81.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylthiophene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-fluorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-bromophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=C(C#CC#CC2=CC=C(Br)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-methyl phenyl acetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 79.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-(tert-butyl)phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 83.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-ethynylanisole"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=C(C#C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COC1=CC=C(C#CC#CC2=CC=C(OC)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-methyl phenyl acetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "2-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 11.2
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.8
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.06
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.94
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.35
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.65
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.96
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 53.04
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 27.5
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 22.5
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.25
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 60.75
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 50.05
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 26.95
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-methyl phenyl acetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.72
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C/C=C/C2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.28
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-methyl phenyl acetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 49.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C/C=C/C2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 21.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-methylphenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 5.7
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.3
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-methylphenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.8
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 19.2
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "2-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.1
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#C/C=C/C2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 53.9
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "2-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 33.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#C/C=C/C2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.5
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.44
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#C/C=C/C2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 61.56
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 42.78
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#C/C=C/C2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 19.22
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylthiophene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 12.2
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(/C=C/C#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 48.8
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylthiophene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.35
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(/C=C/C#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.65
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylpyridine"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.88
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(/C=C/C#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.12
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylpyridine"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 56.8
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(/C=C/C#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.2
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-(tert-butyl)phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 10.2
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#C/C=C/C2=CC=C(C(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 49.8
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-(tert-butyl)phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 42.78
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#C/C=C/C2=CC=C(C(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 19.22
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-fluorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 12.32
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#C/C=C/C2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 64.68
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-fluorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#C/C=C/C2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.5
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.5
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.1
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 18.9
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.7
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 25.3
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.2
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 73.8
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.5
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.5
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 96.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.8
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 18.2
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-methyl phenyl acetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.75
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C/C=C/C2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.25
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-methyl phenyl acetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 6.16
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C/C=C/C2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.84
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-methylphenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 3.4
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.6
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-methylphenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 10.5
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.5
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "2-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 32.24
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#C/C=C/C2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 19.76
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "2-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 7.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#C/C=C/C2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.28
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#C/C=C/C2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 19.72
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-chlorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 10.07
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#C/C=C/C2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 42.93
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylthiophene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 39.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(/C=C/C#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 21.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylthiophene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 10.56
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(/C=C/C#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 55.44
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylpyridine"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.4
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(/C=C/C#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 18.6
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "3-ethynylpyridine"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 9.35
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(/C=C/C#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.65
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-(tert-butyl)phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.76
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#C/C=C/C2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 18.24
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-(tert-butyl)phenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.06
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#C/C=C/C2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 53.94
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-fluorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.2
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#C/C=C/C2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 12.8
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "4-fluorophenylacetylene"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      addition_order: 1
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.0
+        }
+      }
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#C/C=C/C2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 72.0
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "epartment of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/"
+    record_created {
+      time {
+        value: "8/22/2024, 10:53 AM"
+      }
+      person {
+        name: "Tzu-Hsuan Chao"
+        orcid: "0000-0002-1345-0938"
+        organization: "TAMU"
+        email: "peterchao1@tamu.edu"
+      }
+    }
+  }
+}

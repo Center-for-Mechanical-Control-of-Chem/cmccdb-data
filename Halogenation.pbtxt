@@ -4,7 +4,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -18,7 +18,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -46,7 +45,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -61,24 +72,21 @@ reactions {
           value: 95.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -89,7 +97,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -103,7 +111,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -131,7 +138,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -146,24 +165,21 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -174,7 +190,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -188,7 +204,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -216,7 +231,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -231,24 +258,21 @@ reactions {
           value: 98.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -259,7 +283,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -273,7 +297,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -301,7 +324,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -316,24 +351,21 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -344,7 +376,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -358,7 +390,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -386,7 +417,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -401,24 +444,21 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -429,7 +469,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -443,7 +483,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -471,7 +510,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -486,24 +537,21 @@ reactions {
           value: 82.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -514,7 +562,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -528,7 +576,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -556,7 +603,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -571,24 +630,21 @@ reactions {
           value: 84.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -599,12 +655,12 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
           type: SMILES
-          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1 "
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
         }
         amount {
           moles {
@@ -613,7 +669,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -641,7 +696,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -656,24 +723,21 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -684,7 +748,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -698,7 +762,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -726,7 +789,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -741,24 +816,21 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -769,7 +841,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -783,7 +855,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -811,7 +882,15 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 4.0
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -826,24 +905,21 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -854,7 +930,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -868,7 +944,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -896,7 +971,10 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -911,24 +989,21 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -939,7 +1014,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -953,7 +1028,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -981,7 +1055,10 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -996,24 +1073,21 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1024,12 +1098,12 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
           type: SMILES
-          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1 "
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
         }
         amount {
           moles {
@@ -1038,7 +1112,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1066,7 +1139,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1081,24 +1166,21 @@ reactions {
           value: 82.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1109,12 +1191,12 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
           type: SMILES
-          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1 "
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
         }
         amount {
           moles {
@@ -1123,7 +1205,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1151,7 +1232,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1166,24 +1259,21 @@ reactions {
           value: 80.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1194,7 +1284,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1208,7 +1298,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1236,7 +1325,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -1251,24 +1345,21 @@ reactions {
           value: 94.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1279,7 +1370,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1293,7 +1384,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1321,7 +1411,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1336,24 +1438,21 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1364,7 +1463,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1378,7 +1477,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1406,7 +1504,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1421,24 +1531,21 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1449,7 +1556,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1463,7 +1570,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1491,7 +1597,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -1506,24 +1617,21 @@ reactions {
           value: 92.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1534,7 +1642,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1548,7 +1656,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1576,7 +1683,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1591,24 +1710,21 @@ reactions {
           value: 9.2
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1619,7 +1735,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1633,7 +1749,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1661,7 +1776,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1676,24 +1803,21 @@ reactions {
           value: 3.6
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1704,7 +1828,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1718,7 +1842,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1746,7 +1869,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1761,24 +1896,21 @@ reactions {
           value: 14.1
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1789,7 +1921,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1803,7 +1935,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1831,7 +1962,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1846,24 +1989,21 @@ reactions {
           value: 74.25
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1874,7 +2014,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1888,7 +2028,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1916,7 +2055,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -1931,24 +2075,21 @@ reactions {
           value: 69.3
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -1959,7 +2100,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -1973,7 +2114,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2001,7 +2141,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -2016,24 +2168,21 @@ reactions {
           value: 88.11
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2044,7 +2193,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2058,7 +2207,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2086,7 +2234,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -2101,24 +2254,21 @@ reactions {
           value: 71.28
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2129,7 +2279,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2143,7 +2293,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2171,7 +2320,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -2186,24 +2347,21 @@ reactions {
           value: 41.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2214,7 +2372,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2228,7 +2386,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2256,7 +2413,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -2271,24 +2433,21 @@ reactions {
           value: 52.47
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2299,7 +2458,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2313,7 +2472,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2341,7 +2499,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -2356,24 +2526,21 @@ reactions {
           value: 32.8
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2384,7 +2551,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2398,7 +2565,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2426,7 +2592,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -2441,24 +2612,21 @@ reactions {
           value: 53.35
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2469,7 +2637,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2483,7 +2651,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2511,7 +2678,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -2526,24 +2705,21 @@ reactions {
           value: 49.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2554,7 +2730,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2568,7 +2744,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2596,7 +2771,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -2611,24 +2791,21 @@ reactions {
           value: 46.06
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2639,7 +2816,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2653,7 +2830,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2681,7 +2857,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -2696,24 +2884,21 @@ reactions {
           value: 20.74
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2724,7 +2909,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2738,7 +2923,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2766,7 +2950,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -2781,24 +2977,21 @@ reactions {
           value: 11.75
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2809,7 +3002,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2823,7 +3016,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2851,7 +3043,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -2866,24 +3070,21 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2894,7 +3095,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2908,7 +3109,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2936,7 +3136,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -2951,24 +3163,21 @@ reactions {
           value: 43.12
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -2979,7 +3188,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -2993,7 +3202,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3021,7 +3229,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -3036,24 +3256,21 @@ reactions {
           value: 20.46
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3064,7 +3281,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3078,7 +3295,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3106,7 +3322,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -3121,24 +3342,21 @@ reactions {
           value: 18.56
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3149,7 +3367,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3163,7 +3381,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3191,7 +3408,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -3206,24 +3435,21 @@ reactions {
           value: 44.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3234,7 +3460,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3248,7 +3474,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3276,7 +3501,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -3291,24 +3521,21 @@ reactions {
           value: 41.8
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3319,7 +3546,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3333,7 +3560,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3361,7 +3587,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -3376,24 +3614,21 @@ reactions {
           value: 51.3
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3404,7 +3639,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3418,7 +3653,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3446,7 +3680,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -3461,24 +3700,21 @@ reactions {
           value: 47.3
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3489,7 +3725,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3503,7 +3739,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3531,7 +3766,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -3546,24 +3793,21 @@ reactions {
           value: 17.6
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3574,7 +3818,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3588,7 +3832,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3616,7 +3859,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -3631,24 +3879,21 @@ reactions {
           value: 45.76
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3659,7 +3904,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3673,7 +3918,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3701,7 +3945,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -3716,24 +3972,21 @@ reactions {
           value: 71.78
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3744,7 +3997,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3758,7 +4011,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3786,7 +4038,12 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
     }
   }
   outcomes {
@@ -3801,24 +4058,21 @@ reactions {
           value: 58.5
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
@@ -3829,7 +4083,7 @@ reactions {
     value: "Halogenation"
   }
   inputs {
-    key: "cyclopentadienylrhenium(I) tricarbonyl"
+    key: "inputs-eae19d"
     value {
       components {
         identifiers {
@@ -3843,7 +4097,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -3871,7 +4124,19 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -3886,24 +4151,21 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
       organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
     }
-    city: "Montreal"
-    doi: "10.1039/c3gc42104j"
     publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-03 22:50:56.894990"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }

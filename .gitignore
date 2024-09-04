@@ -18,3 +18,4 @@ coverage*
 # Node.
 package-lock.json
 node_modules/
+~$*.xlsx

@@ -1,0 +1,240 @@
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Click"
+  }
+  inputs {
+    key: "inputs"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COO"
+        }
+        amount {
+          moles {
+            value: 0.05
+            units: MOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "OO"
+        }
+        amount {
+          moles {
+            value: 0.001
+            units: MOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 10.0
+        units: HERTZ
+      }
+      liquid_assisted: false
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COOOOO"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.82
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cinncinati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-09-03 21:24:14.029334"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Click"
+  }
+  inputs {
+    key: "inputs-154ca2"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OCO"
+        }
+        amount {
+          moles {
+            value: 0.05
+            units: MOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "COO"
+        }
+        amount {
+          moles {
+            value: 0.001
+            units: MOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 10.0
+        units: HERTZ
+      }
+      liquid_assisted: false
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OCOCOO"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.82
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cinncinati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-09-03 21:24:14.029334"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Click"
+  }
+  inputs {
+    key: "inputs-154ca2"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C"
+        }
+        amount {
+          moles {
+            value: 0.05
+            units: MOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C"
+        }
+        amount {
+          moles {
+            value: 0.001
+            units: MOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 440.0
+        units: HERTZ
+      }
+      liquid_assisted: false
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.82
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cinncinati"
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-09-03 21:24:14.029334"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+}

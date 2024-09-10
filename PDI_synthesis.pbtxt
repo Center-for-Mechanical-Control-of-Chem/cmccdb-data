@@ -1,10 +1,11 @@
+name: "PDI_synthesis"
 reactions {
   identifiers {
     type: REACTION_TYPE
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-6b6abb"
     value {
       components {
         identifiers {
@@ -18,7 +19,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -33,7 +33,28 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 60.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.083
+        units: MINUTE
+      }
     }
   }
   outcomes {
@@ -48,11 +69,11 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -60,16 +81,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0001"
 }
 reactions {
   identifiers {
@@ -77,7 +97,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-6b6abb"
     value {
       components {
         identifiers {
@@ -91,7 +111,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -106,7 +125,28 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 90.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.083
+        units: MINUTE
+      }
     }
   }
   outcomes {
@@ -121,11 +161,11 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -133,16 +173,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0002"
 }
 reactions {
   identifiers {
@@ -150,7 +189,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-6b6abb"
     value {
       components {
         identifiers {
@@ -164,7 +203,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -179,7 +217,28 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.083
+        units: MINUTE
+      }
     }
   }
   outcomes {
@@ -194,11 +253,11 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -206,16 +265,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0003"
 }
 reactions {
   identifiers {
@@ -223,7 +281,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -237,7 +295,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -252,7 +309,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 60.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -267,11 +337,11 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -279,16 +349,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0004"
 }
 reactions {
   identifiers {
@@ -296,7 +365,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -310,7 +379,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -325,7 +393,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 90.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -340,11 +421,11 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -352,16 +433,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0005"
 }
 reactions {
   identifiers {
@@ -369,7 +449,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -383,7 +463,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -398,7 +477,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -413,11 +505,11 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -425,16 +517,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0006"
 }
 reactions {
   identifiers {
@@ -442,7 +533,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -456,9 +547,34 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCOC1=CC=C(C=C1)CN"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -473,11 +589,11 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -485,16 +601,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0007"
 }
 reactions {
   identifiers {
@@ -502,7 +617,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -516,9 +631,34 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCOC1=CC=C(C=C1)CN"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 133.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -533,11 +673,11 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -545,16 +685,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0008"
 }
 reactions {
   identifiers {
@@ -562,7 +701,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -576,7 +715,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -591,7 +729,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -606,11 +757,11 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -618,16 +769,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0009"
 }
 reactions {
   identifiers {
@@ -635,7 +785,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "1, 8-napthalic anhydride"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -649,7 +799,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -664,7 +813,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 136.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -679,11 +841,11 @@ reactions {
           value: 99.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -691,16 +853,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0010"
 }
 reactions {
   identifiers {
@@ -708,7 +869,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -722,7 +883,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -737,7 +897,28 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: MINUTE
+      }
     }
   }
   outcomes {
@@ -752,11 +933,11 @@ reactions {
           value: 94.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -764,16 +945,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0011"
 }
 reactions {
   identifiers {
@@ -781,7 +961,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -795,7 +975,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -810,7 +989,28 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: MINUTE
+      }
     }
   }
   outcomes {
@@ -825,11 +1025,11 @@ reactions {
           value: 60.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -837,16 +1037,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0012"
 }
 reactions {
   identifiers {
@@ -854,7 +1053,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -868,7 +1067,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -883,7 +1081,28 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: MINUTE
+      }
     }
   }
   outcomes {
@@ -898,11 +1117,11 @@ reactions {
           value: 91.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -910,16 +1129,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0013"
 }
 reactions {
   identifiers {
@@ -927,7 +1145,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -941,7 +1159,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -956,7 +1173,28 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 90.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: MINUTE
+      }
     }
   }
   outcomes {
@@ -971,11 +1209,11 @@ reactions {
           value: 84.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -983,16 +1221,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0014"
 }
 reactions {
   identifiers {
@@ -1000,7 +1237,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1014,7 +1251,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1029,7 +1265,28 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: MINUTE
+      }
     }
   }
   outcomes {
@@ -1044,11 +1301,11 @@ reactions {
           value: 50500.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1056,16 +1313,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0015"
 }
 reactions {
   identifiers {
@@ -1073,7 +1329,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1087,7 +1343,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1102,7 +1357,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1117,11 +1385,11 @@ reactions {
           value: 92.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1129,16 +1397,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0016"
 }
 reactions {
   identifiers {
@@ -1146,7 +1413,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1160,7 +1427,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1175,7 +1441,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1190,11 +1469,11 @@ reactions {
           value: 94.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1202,16 +1481,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0017"
 }
 reactions {
   identifiers {
@@ -1219,7 +1497,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1233,7 +1511,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1248,7 +1525,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1263,11 +1553,11 @@ reactions {
           value: 94.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1275,16 +1565,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0018"
 }
 reactions {
   identifiers {
@@ -1292,7 +1581,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1306,7 +1595,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1321,7 +1609,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1336,11 +1637,11 @@ reactions {
           value: 93.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1348,16 +1649,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0019"
 }
 reactions {
   identifiers {
@@ -1365,7 +1665,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1379,7 +1679,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1394,7 +1693,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1409,11 +1721,11 @@ reactions {
           value: 40.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1421,16 +1733,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0020"
 }
 reactions {
   identifiers {
@@ -1438,7 +1749,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1452,7 +1763,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1467,7 +1777,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1482,11 +1805,11 @@ reactions {
           value: 91.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1494,16 +1817,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0021"
 }
 reactions {
   identifiers {
@@ -1511,7 +1833,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1525,7 +1847,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1540,7 +1861,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1555,11 +1889,11 @@ reactions {
           value: 96.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1567,16 +1901,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0022"
 }
 reactions {
   identifiers {
@@ -1584,7 +1917,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1598,7 +1931,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1613,7 +1945,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1628,11 +1973,11 @@ reactions {
           value: 88.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1640,16 +1985,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0023"
 }
 reactions {
   identifiers {
@@ -1657,7 +2001,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1671,7 +2015,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1686,7 +2029,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1701,11 +2057,11 @@ reactions {
           value: 51.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1713,16 +2069,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0024"
 }
 reactions {
   identifiers {
@@ -1730,7 +2085,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1744,7 +2099,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1759,7 +2113,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1774,11 +2141,11 @@ reactions {
           value: 51.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1786,16 +2153,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0025"
 }
 reactions {
   identifiers {
@@ -1803,7 +2169,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1817,7 +2183,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1845,7 +2210,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1860,11 +2238,11 @@ reactions {
           value: 23.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1872,16 +2250,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0026"
 }
 reactions {
   identifiers {
@@ -1889,7 +2266,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1903,7 +2280,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1931,7 +2307,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 180.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -1946,11 +2335,11 @@ reactions {
           value: 33.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -1958,16 +2347,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0027"
 }
 reactions {
   identifiers {
@@ -1975,7 +2363,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -1989,7 +2377,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2017,7 +2404,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 240.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -2032,11 +2432,11 @@ reactions {
           value: 60.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -2044,16 +2444,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0028"
 }
 reactions {
   identifiers {
@@ -2061,7 +2460,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -2075,7 +2474,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2103,7 +2501,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 226.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -2118,11 +2529,11 @@ reactions {
           value: 47.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -2130,16 +2541,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0029"
 }
 reactions {
   identifiers {
@@ -2147,7 +2557,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -2161,7 +2571,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2189,7 +2598,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 200.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -2204,11 +2626,11 @@ reactions {
           value: 63.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -2216,16 +2638,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0030"
 }
 reactions {
   identifiers {
@@ -2233,7 +2654,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -2247,7 +2668,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2275,7 +2695,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 257.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -2290,11 +2723,11 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -2302,16 +2735,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0031"
 }
 reactions {
   identifiers {
@@ -2319,7 +2751,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -2333,7 +2765,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2361,7 +2792,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 332.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -2376,11 +2820,11 @@ reactions {
           value: 73.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -2388,16 +2832,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0032"
 }
 reactions {
   identifiers {
@@ -2405,7 +2848,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -2419,7 +2862,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2447,7 +2889,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 223.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -2462,11 +2917,11 @@ reactions {
           value: 59.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -2474,16 +2929,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0033"
 }
 reactions {
   identifiers {
@@ -2491,7 +2945,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -2505,7 +2959,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2533,7 +2986,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 360.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -2548,11 +3014,11 @@ reactions {
           value: 65.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -2560,16 +3026,15 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0034"
 }
 reactions {
   identifiers {
@@ -2577,7 +3042,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "PTCDA"
+    key: "inputs-ec3985"
     value {
       components {
         identifiers {
@@ -2591,7 +3056,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -2619,7 +3083,20 @@ reactions {
         }
         reaction_role: REACTANT
       }
-      addition_order: 1
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 301.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
     }
   }
   outcomes {
@@ -2634,11 +3111,11 @@ reactions {
           value: 55.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
     experimenter {
-      orcid: "0000-0002-6554-0345"
       organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
     }
     city: "Belfast"
@@ -2646,14 +3123,14 @@ reactions {
     publication_url: "https://doi.org/10.1002/ange.201913625"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:24:55.150749"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-7d131b7c5e164ba992ebaf20f47e0035"
 }
+dataset_id: "cmcc_dataset-7d131b7c5e164ba992ebaf20f47ee735"

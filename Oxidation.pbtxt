@@ -1,10 +1,11 @@
+name: "Oxidation"
 reactions {
   identifiers {
     type: REACTION_TYPE
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -18,7 +19,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -36,7 +36,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -46,7 +46,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -61,18 +77,7 @@ reactions {
           value: 13.09
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 1.36
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -85,6 +90,7 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -96,16 +102,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10001"
 }
 reactions {
   identifiers {
@@ -113,7 +118,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -127,7 +132,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -145,7 +149,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -155,7 +159,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -170,18 +190,7 @@ reactions {
           value: 17.94
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 2.08
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -194,6 +203,7 @@ reactions {
           value: 1.04
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -205,16 +215,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10002"
 }
 reactions {
   identifiers {
@@ -222,7 +231,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -236,7 +245,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -254,7 +262,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -264,7 +272,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -279,18 +303,7 @@ reactions {
           value: 26.95
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 4.95
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -303,6 +316,7 @@ reactions {
           value: 3.3
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -314,16 +328,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10003"
 }
 reactions {
   identifiers {
@@ -331,7 +344,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -345,7 +358,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -363,7 +375,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -373,7 +385,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -388,18 +416,7 @@ reactions {
           value: 19.44
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 7.29
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -412,6 +429,7 @@ reactions {
           value: 4.86
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -423,16 +441,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10004"
 }
 reactions {
   identifiers {
@@ -440,7 +457,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -454,7 +471,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -472,7 +488,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -482,7 +498,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -497,18 +529,7 @@ reactions {
           value: 22.78
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 1.34
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -521,6 +542,7 @@ reactions {
           value: 1.34
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -532,16 +554,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10005"
 }
 reactions {
   identifiers {
@@ -549,7 +570,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -563,7 +584,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -581,7 +601,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -591,7 +611,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -606,18 +642,7 @@ reactions {
           value: 17.05
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 1.1
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -630,6 +655,7 @@ reactions {
           value: 1.1
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -641,16 +667,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10006"
 }
 reactions {
   identifiers {
@@ -658,7 +683,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2-dimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -672,7 +697,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -690,7 +714,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -700,7 +724,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -715,18 +755,7 @@ reactions {
           value: 0.0
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 0.0
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -739,6 +768,7 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -750,16 +780,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10007"
 }
 reactions {
   identifiers {
@@ -767,7 +796,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "methoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -781,7 +810,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -799,7 +827,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -809,7 +837,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -824,18 +868,7 @@ reactions {
           value: 0.0
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 0.0
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -848,6 +881,7 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -859,16 +893,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10008"
 }
 reactions {
   identifiers {
@@ -876,7 +909,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "3,4,5-trimethoxyphenol  "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -890,7 +923,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -908,7 +940,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -918,7 +950,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -933,18 +981,7 @@ reactions {
           value: 0.0
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 0.0
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -957,6 +994,7 @@ reactions {
           value: 8.52
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -968,16 +1006,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10009"
 }
 reactions {
   identifiers {
@@ -985,7 +1022,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "2,3,4-trimethoxyphenol  "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -999,7 +1036,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1017,7 +1053,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -1027,7 +1063,23 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
     }
   }
   outcomes {
@@ -1042,18 +1094,7 @@ reactions {
           value: 0.0
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 59.63
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -1066,6 +1107,7 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -1077,16 +1119,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10010"
 }
 reactions {
   identifiers {
@@ -1094,7 +1135,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -1108,7 +1149,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1126,7 +1166,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -1136,7 +1176,32 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1151,18 +1216,7 @@ reactions {
           value: 0.0
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 0.0
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -1175,6 +1229,7 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -1186,16 +1241,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10011"
 }
 reactions {
   identifiers {
@@ -1203,7 +1257,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -1217,7 +1271,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1235,7 +1288,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -1245,7 +1298,32 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1260,18 +1338,7 @@ reactions {
           value: 65.55
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 14.25
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -1284,6 +1351,7 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -1295,16 +1363,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10012"
 }
 reactions {
   identifiers {
@@ -1312,7 +1379,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -1326,7 +1393,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1344,7 +1410,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -1354,7 +1420,32 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1369,18 +1460,7 @@ reactions {
           value: 0.0
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 14.25
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -1393,6 +1473,7 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -1404,16 +1485,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10013"
 }
 reactions {
   identifiers {
@@ -1421,7 +1501,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -1435,7 +1515,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1453,7 +1532,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -1463,7 +1542,32 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1478,18 +1582,7 @@ reactions {
           value: 0.0
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 76.95
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -1502,6 +1595,7 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -1513,16 +1607,15 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10014"
 }
 reactions {
   identifiers {
@@ -1530,7 +1623,7 @@ reactions {
     value: "Oxidation"
   }
   inputs {
-    key: "1,2,3-trimethoxybenzene "
+    key: "inputs-0e87c3"
     value {
       components {
         identifiers {
@@ -1544,7 +1637,6 @@ reactions {
           }
         }
         reaction_role: REACTANT
-        is_limiting: true
       }
       components {
         identifiers {
@@ -1562,7 +1654,7 @@ reactions {
       components {
         identifiers {
           type: NAME
-          value: "D2O + d3-CAN"
+          value: "D2O"
         }
         amount {
           moles {
@@ -1572,7 +1664,32 @@ reactions {
         }
         reaction_role: SOLVENT
       }
-      addition_order: 1
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 5.0
+        units: SECOND
+      }
     }
   }
   outcomes {
@@ -1587,18 +1704,7 @@ reactions {
           value: 0.0
         }
       }
-    }
-    products {
-      identifiers {
-        type: SMILES
-        value: "O=C1C(OC)=C(OC)C(C=C1)=O"
-      }
-      measurements {
-        type: YIELD
-        percentage {
-          value: 77.9
-        }
-      }
+      reaction_role: PRODUCT
     }
     products {
       identifiers {
@@ -1611,6 +1717,7 @@ reactions {
           value: 0.0
         }
       }
+      reaction_role: PRODUCT
     }
   }
   provenance {
@@ -1622,14 +1729,14 @@ reactions {
     publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
     record_created {
       time {
-        value: "8/22/2024, 10:53 AM"
+        value: "2024-09-10 07:29:05.948178"
       }
       person {
-        name: "Tzu-Hsuan Chao"
-        orcid: "0000-0002-1345-0938"
-        organization: "TAMU"
-        email: "peterchao1@tamu.edu"
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
       }
     }
   }
+  reaction_id: "cmcc-74ab840caa2a41e49fa0f5cc21f10015"
 }
+dataset_id: "cmcc_dataset-74ab840caa2a41e49fa0f5cc21f1b83b"

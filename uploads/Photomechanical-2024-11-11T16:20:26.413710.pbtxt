@@ -1,0 +1,1943 @@
+name: "Photomechanical"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 7.88
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 17.7
+        units: HERTZ
+      }
+      duration {
+        value: 72000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 6.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 7.88
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 17.7
+        units: HERTZ
+      }
+      duration {
+        value: 72000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 7.88
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 17.7
+        units: HERTZ
+      }
+      duration {
+        value: 72000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 30.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 7.88
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 17.7
+        units: HERTZ
+      }
+      duration {
+        value: 72000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 54.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DMSO"
+        }
+        amount {
+          moles {
+            value: 14.08
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 49.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DMSO"
+        }
+        amount {
+          moles {
+            value: 7.04
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 27.78
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 31.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 69.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DMSO"
+        }
+        amount {
+          moles {
+            value: 10.56
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 13.88
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 41.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 55.51
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "EtOH"
+        }
+        amount {
+          moles {
+            value: 17.39
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 52.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 48.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "EtOH"
+        }
+        amount {
+          moles {
+            value: 8.695
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 27.78
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 39.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 61.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "EtOH"
+        }
+        amount {
+          moles {
+            value: 13.04
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 13.89
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 23.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 55.51
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 91.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 9.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          moles {
+            value: 31.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 54.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          moles {
+            value: 15.625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 27.78
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 42.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          moles {
+            value: 23.44
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 13.89
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 22.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DMF"
+        }
+        amount {
+          moles {
+            value: 13.16
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 47.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 53.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DMF"
+        }
+        amount {
+          moles {
+            value: 6.58
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 27.78
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 33.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 67.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DMF"
+        }
+        amount {
+          moles {
+            value: 9.87
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 13.89
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 47.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 53.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          moles {
+            value: 19.14
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 24.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          moles {
+            value: 9.57
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 27.78
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 23.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Arylation"
+  }
+  inputs {
+    key: "inputs-608bd1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC(C=C3)=C1C3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 8e-05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          moles {
+            value: 14.355
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 13.89
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C12=CC=CC(C3C4C(C3C5=CC=C6)C7=C5C6=CC=C7)=C1C4=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 57.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Catalytic Hydrogenation Research Center, State Key Laboratory Breeding Base of Green Chemistry-Synthesis Technology, Zhejiang University of Technology"
+    }
+    city: "Hangzhou"
+    doi: "10.1021/acscatal.6b00861"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acscatal.6b00861"
+    record_created {
+      time {
+        value: "2024-11-11 16:20:26.417936"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-a036cc32354b483abaeccf965c370021"
+}
+dataset_id: "cmcc_dataset-a036cc32354b483abaeccf965c370f29"

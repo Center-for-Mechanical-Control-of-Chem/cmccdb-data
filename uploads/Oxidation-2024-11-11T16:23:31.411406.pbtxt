@@ -1,0 +1,1742 @@
+name: "Oxidation"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 13.09
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.94
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.04
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 26.95
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 3.3
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 200.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 19.44
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.86
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 22.78
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.34
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.05
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.1
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=CC=C(OC)C(OC)=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.52
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=CC(OC)=C(OC)C(OC)=C1"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 18000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 18000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.55
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 18000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 200.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 18000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Oxidation"
+  }
+  inputs {
+    key: "inputs-2da94b"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=C(OC)C=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 300.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "D2O"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "d3-CAN"
+        }
+        amount {
+          moles {
+            value: 100.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 18000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OC1=CC=C(OC)C(OC)=C1OC"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C(OC)=CC(C=C1OC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Center for Green Chemistry and Green Engineering, Yale University"
+    }
+    city: "New Haven"
+    doi: "10.1016/j.tetlet.2013.02.056"
+    publication_url: "https://doi.org/10.1016/j.tetlet.2013.02.056"
+    record_created {
+      time {
+        value: "2024-11-11 16:23:31.411920"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-21b787e085b6473f9fda24f3e08f0015"
+}
+dataset_id: "cmcc_dataset-21b787e085b6473f9fda24f3e08f6f41"

@@ -1,0 +1,3480 @@
+name: "PDI_synthesis"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-73664c"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 60.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 300.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-73664c"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 90.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 300.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-73664c"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 300.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 60.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 360.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 90.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 360.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 360.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCOC1=CC=C(N)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 300.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C(C2=CC=CC3=CC=CC1=C23)=O)C4=CC=C(OCC)C=C4"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=C(CN)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 300.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(OC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=C(CN)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 300.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(OC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 360.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C(C2=CC=CC3=CC=CC1=C23)=O)CCC4=CC=CC=C4"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 360.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C(C2=CC=CC3=CC=CC1=C23)=O)CCC4=CC=CC=C4"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCCCCCCCCCCCN"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCCCCCCCCCC)C(C2=CC=C(C3=CC=C4C(N(CCCCCCCCCCCC)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCCCCCCCN"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCCCCCC)C(C2=CC=C(C3=CC=C4C(N(CCCCCCCC)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 60.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCCCCCCCN"
+        }
+        amount {
+          moles {
+            value: 31.85
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCCCCCC)C(C2=CC=C(C3=CC=C4C(N(CCCCCCCC)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 91.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCOC"
+        }
+        amount {
+          moles {
+            value: 31.85
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 90.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCOC)C(C2=CC=C(C3=CC=C4C(N(CCCOC)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCN(C)C"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCN(C)C)C(C2=CC=C(C3=CC=C4C(N(CCCN(C)C)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 50.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCN(C)C"
+        }
+        amount {
+          moles {
+            value: 31.85
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCN(C)C)C(C2=CC=C(C3=CC=C4C(N(CCCN(C)C)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCO"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCO)C(C2=CC=C(C3=CC=C4C(N(CCO)C(C5=CC=C6C3=C54)=O)=O)C7=C6C=CC1=C27)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCCC2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(CCCC6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CCC2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(CCC6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 31.85
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 91.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(OC)C=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=C(OC)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 96.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(C)C=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=C(C)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCC1=CC=C(C(F)(F)F)C=C1"
+        }
+        amount {
+          moles {
+            value: 31.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(F)C=C2)C(C3=CC=C(C4=CC=C5C(N(CC6=CC=C(F)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O.FF"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C[C@H](N)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 31.48
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 480.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 150.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=CC=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=CC=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 23.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC(CC)=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 180.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=CC(CC)=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=CC(CC)=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 33.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C[O-])C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 200.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(C1=CC=C2C3=C4C5=C(C(N(C6=CC(C[O-])=CC=C6)C(C5=CC=C4C7=CC=C8C1=C72)=O)=O)C=C3)N(C9=CC(C[O-])=CC=C9)C8=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 60.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=C(N)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 200.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OC)C(OC)=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=C(OC)C(OC)=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 47.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 200.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OC)C=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=C(OC)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 63.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=C(C(C)C)C=CC=C1C(C)C"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 200.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=C(C(C)C)CCC=C2C(C)C)C(C3=CC=C(C4=CC=C5C(N(C6=C(C(C)C)C=CC=C6C(C)C)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C([N+]([O-])=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 200.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OO[N])C=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=C([N+]([O-])=O)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 73.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 200.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CCC(Br)C=C2)C(C3=CC=C(C4=CC=C5C(N(C6=CC=C(Br)C=C6)C(C7=CC=C8C4=C75)=O)=O)C9=C8C=CC1=C39)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(/N=N/C2=CC=CC=C2)C=C1"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 200.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CCC(/N=N/C3=CC=CC=C3)C=C2)C(C4=CC=C(C5=CC=C6C(N(C7=CC=C(/N=N\\C8=CC=CC=C8)C=C7)C(C9=CC=C%10C5=C96)=O)=O)C%11=C%10C=CC1=C4%11)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-88efd0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C4=CC=C3C1=O)=C(C5=C6C4=CC=C(C7=O)C6=C(C(O7)=O)C=C5)C=C2"
+        }
+        amount {
+          moles {
+            value: 12.74
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC2=C1C=CC=C2"
+        }
+        amount {
+          moles {
+            value: 43.316
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 101.92
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 200.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 15.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=C3C=CC=CC3=CC=C2)C(C4=CC=C(C5=CC=C6C(N(C7=C8C=CC=CC8=CC=C7)C(C9=CC=C%10C5=C96)=O)=O)C%11=C%10C=CC1=C4%11)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 55.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-6554-0345"
+      organization: "School of Chemistry and Chemical Engineering Queen\'s University Belfast"
+    }
+    city: "Belfast"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/10.1002/ange.201913625"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:50.235281"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-4ed72c09a4204fca9e0e8eead0fa0036"
+}
+dataset_id: "cmcc_dataset-4ed72c09a4204fca9e0e8eead0fa868a"

@@ -1,0 +1,2386 @@
+name: "UGI"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]O[H]"
+        }
+        amount {
+          volume {
+            value: 0.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 14400.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 66.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CO"
+        }
+        amount {
+          volume {
+            value: 0.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 14400.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "OCC"
+        }
+        amount {
+          volume {
+            value: 0.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 14400.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 23.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC#N"
+        }
+        amount {
+          volume {
+            value: 0.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 14400.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 36.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CN(C=O)C"
+        }
+        amount {
+          volume {
+            value: 0.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 14400.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 21.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C(Cl)Cl"
+        }
+        amount {
+          volume {
+            value: 0.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 14400.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 44.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC=C1"
+        }
+        amount {
+          volume {
+            value: 0.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 14400.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 35.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "ClC(Cl)(Cl)Cl"
+        }
+        amount {
+          volume {
+            value: 0.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 14400.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 49.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 14400.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 63.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 60.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 6000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 69.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 80.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 6000.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 72.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 100.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 3600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 60.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 80.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 90.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 100.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 100.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 40.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI Coupling"
+  }
+  inputs {
+    key: "inputs-0d2a19"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: CUSTOM
+        details: "not specified"
+        temperature {
+          value: 100.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-3591-0077"
+      organization: "Department of Chemistry, Faculty of Science, Sohag University"
+    }
+    city: "Sohag, Egypt"
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://doi.org/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:13.128333"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-8842e429017e4ca2b54b7df914120019"
+}
+dataset_id: "cmcc_dataset-8842e429017e4ca2b54b7df914124d8b"

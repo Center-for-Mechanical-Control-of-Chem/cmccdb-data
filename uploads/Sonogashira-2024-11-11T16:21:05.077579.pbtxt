@@ -1,0 +1,6753 @@
+name: "Sonogashira"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 86.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(I)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(I)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 11.4
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C#CC1=CC=C(C=C1)C#C[Si](C)(C)C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.6
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=CC=C1I"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "IC1=CC=CC=C1C#CC2=CC=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(I)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(I)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 9.3
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C#CC1=CC=C(C=C1)C#C[Si](C)(C)C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.7
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(I)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "IC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 24.57
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC2=CC=CC=C2)=CC=C(C=C1)C#CC3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.43
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 26.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 33.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 7.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([N+]([O-])=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=[N+](C1=CC=C(C#C[Si](C)(C)C)C=C1)[O-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 66.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([N+]([O-])=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=[N+](C1=CC=C(C#CC2=CC=CC=C2)C=C1)[O-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C#CC1=CC=C(C=C1)C#C[Si](C)(C)C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.68
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC2=CC=CC=C2)=CC=C(C=C1)C#CC3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.32
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=CC=C1Br)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 3.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C#CC1=CC=CC=C1C#C[Si](C)(C)C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=CC=C1C#CC2=CC=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC2=CC=CC=C2)=CC=CC=C1C#CC3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 39.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50036"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50037"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50038"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50039"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 37.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50040"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50041"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50042"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50043"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 44.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50044"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=CC=C1C#C[Si](C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50045"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Tungsten Carbide"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=CC=C1C#C[Si](C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50046"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50047"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50048"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 31.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50049"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 52.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50050"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50051"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50052"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50053"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball and Copper Vial"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50054"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball and Copper Vial"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 83.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50055"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball and Copper Vial"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50056"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball and Copper Vial"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 86.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50057"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball and Copper Vial"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 42.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50058"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball and Copper Vial"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50059"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-307f0d"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+        }
+        amount {
+          moles {
+            value: 0.025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu]I"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 60.0
+        units: HERTZ
+      }
+      duration {
+        value: 61200.0
+        units: SECOND
+      }
+      ball_material: "Copper Ball and Copper Vial"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0001-5717-8916"
+      organization: "University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/b915669k"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:05.078179"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7c0b3c62402b4097a14e1fd682f50060"
+}
+dataset_id: "cmcc_dataset-7c0b3c62402b4097a14e1fd682f56bd4"

@@ -1,0 +1,4057 @@
+name: "Pericyclic"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 98.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 96.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 79.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 73.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 30.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 70.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 5.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 20.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 48.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 5.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 20.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "[H][C@]12C=CC[C@@]1([H])[C@]3([H])C=C[C@@]2([H])C3"
+      }
+      measurements {
+        type: AMOUNT
+        details: "trace"
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 5.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 20.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "[H][C@]12C=CC[C@@]1([H])[C@]3([H])C=C[C@@]2([H])C3"
+      }
+      measurements {
+        type: AMOUNT
+        details: "trace"
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 5.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          volume {
+            value: 20.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 83.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@@](C4)([H])C=C[C@@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: AMOUNT
+        percentage {
+          value: 0.06
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "hexane"
+        }
+        amount {
+          volume {
+            value: 25.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          volume {
+            value: 25.0
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 54.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "[H][C@]12C=CC[C@@]1([H])[C@]3([H])C=C[C@@]2([H])C3"
+      }
+      measurements {
+        type: AMOUNT
+        percentage {
+          value: 0.07
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 10.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590036"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 20.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590037"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590038"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-d1f811"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)N(C2=CC=C(C)C=C2)C1=C"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 5.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0002-8883-6798"
+      organization: "School of Biochemical Engineering, Anhui Polytechnic University"
+    }
+    city: "Anhui"
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2024-11-11 17:34:59.155016"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-63c73edd22794d5b91673986c6590039"
+}
+dataset_id: "cmcc_dataset-63c73edd22794d5b91673986c6599f41"

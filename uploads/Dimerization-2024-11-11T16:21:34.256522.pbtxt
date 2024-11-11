@@ -1,0 +1,4911 @@
+name: "Dimerization"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CCCCC1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CCCCC2)=CCCCC1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 81.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=C(C#CC#CC2=CC=C(Br)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 79.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 83.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC=C(C#C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COC1=CC=C(C#CC#CC2=CC=C(OC)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 21600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I]"
+        }
+        amount {
+          moles {
+            value: 18.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CC(NC(C)C)C"
+        }
+        amount {
+          moles {
+            value: 212.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 57600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 57600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 11.2
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 57600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 57600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.06
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 57600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.35
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 57600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.96
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 57600.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 27.5
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.25
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 50.05
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.72
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 49.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 5.7
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.8
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.1
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 33.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.44
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 42.78
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 12.2
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.35
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.88
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 56.8
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 10.2
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0036"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 42.78
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0037"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 12.32
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0038"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      duration {
+        value: 60120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0039"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.5
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0040"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.1
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0041"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.7
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0042"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.2
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0043"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.5
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0044"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 96.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0045"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.8
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0046"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#C/C=C/C2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0047"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.75
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0048"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC#CC2=CC=C(C)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 6.16
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0049"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 3.4
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0050"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC(C#CC#CC2=CC=CC(C)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 10.5
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0051"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 32.24
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0052"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1Cl"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=CC=C1C#CC#CC2=CC=CC=C2Cl"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 7.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0053"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.28
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0054"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC(C)=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC(C#CC#CC2=CC=CC(Cl)=C2)=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 10.07
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0055"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 39.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0056"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CSC=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CSC=C2)=CSC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 10.56
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0057"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.4
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0058"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CN=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC#CC2=CC=CN=C2)=CC=CN=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 9.35
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0059"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.76
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0060"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(C(C)(C)C)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C1=CC=C(C#CC#CC2=CC=C(C(C)(C)C)C=C2)C=C1)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.06
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0061"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.2
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0062"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Dimerization"
+  }
+  inputs {
+    key: "inputs-9c93d3"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=C(F)C=C1"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[K+].[K+]"
+        }
+        amount {
+          moles {
+            value: 2.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "FC1=CC=C(C#CC#CC2=CC=C(F)C=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1021/acscatal.5b02001"
+    publication_url: "https://doi.org/10.1021/acscatal.5b02001"
+    record_created {
+      time {
+        value: "2024-11-11 16:21:34.260104"
+      }
+      person {
+        name: "Web Uploader"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-db268fb9672a45299a435dd1a52e0063"
+}
+dataset_id: "cmcc_dataset-db268fb9672a45299a435dd1a52e105d"

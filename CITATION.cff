@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Boyer"
+  given-names: "Mark"
+  orcid: "https://orcid.org/0000-0003-4740-5307"
+- family-names: "Tabor"
+  given-names: "Daniel"
+  orcid: "https://orcid.org/0000-0002-8680-6667"
+- family-names: "Chao"
+  given-names: "Tzu-Hsuan"
+  orcid: "https://orcid.org/0000-0002-1345-0938"
+- family-names: "Williams"
+  given-names: "Daniel"
+  orcid: "https://orcid.org/0009-0000-6788-7599"
+title: "Center for Control of Mechanochemistry Database Data"
+version: 0.0.1
+doi: 10.5281/zenodo.14826995
+date-released: 2025-02-06
+url: "https://github.com/Center-for-Mechanical-Control-of-Chem/cmccdb-data"

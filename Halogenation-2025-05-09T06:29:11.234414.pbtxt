@@ -1,0 +1,4220 @@
+name: "Halogenation"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Li+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[K+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 98.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Rb+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cs+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC[NH+](CC)CC[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1Br)CCC1=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 4.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Li+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Li+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Li+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 9.2
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 3.6
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.1
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cl[Cu-2](Cl)([OH2+])[OH2+]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.25
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 69.3
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.11
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.28
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 41.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 52.47
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 32.8
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 53.35
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 49.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.06
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.74
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 11.75
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.12
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.46
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90036"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Cl-].[Cl-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Cl-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 18.56
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90037"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 44.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90038"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 41.8
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90039"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.3
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90040"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 47.3
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90041"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.6
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90042"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+2].[Br-].[Br-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[Br-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 45.76
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90043"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 71.78
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90044"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      liquid_assisted: true
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.5
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90045"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Halogenation"
+  }
+  inputs {
+    key: "inputs-7674c6"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[C][Re]([C]=O)([C]=O)C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 0.298
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I-]"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-][O+]=O"
+        }
+        amount {
+          moles {
+            value: 0.596
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "[Re]C1=CC=CC1.[I-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry and FRQNT Center for Green Chemistry and Catalysis, McGill University"
+    }
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2014/gc/c3gc42104j"
+    record_created {
+      time {
+        value: "2025-05-09 06:29:11.235822"
+      }
+      person {
+        name: "Web Uploader"
+        email: "b3m2a1@gmail.com"
+      }
+    }
+  }
+  reaction_id: "cmcc-6279c33d1a404f9f9578a6303ff90046"
+}
+dataset_id: "cmcc_dataset-6279c33d1a404f9f9578a6303ff99d5a"

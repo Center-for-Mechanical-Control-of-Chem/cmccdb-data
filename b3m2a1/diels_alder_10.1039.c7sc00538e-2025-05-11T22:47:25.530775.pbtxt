@@ -1,0 +1,6770 @@
+name: "diels_alder_10.1039.c7sc00538e"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.2
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 16.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.6
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 17.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 25.6
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 41.2
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 19.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 56.3
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 20.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.1
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 91.7
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)OC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)OC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)OC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 6.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Unhardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 60.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)OC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)OC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)OC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)OC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)OC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)OC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc12c3c([C@@H](c4c2cccc4)[C@H]5C(OC([C@@H]15)=O)=O)cccc3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc12c3c([C@@H](c4c2cccc4)[C@H]5C(OC([C@@H]15)=O)=O)cccc3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc12c3c([C@@H](c4c2cccc4)[C@H]5C(OC([C@@H]15)=O)=O)cccc3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc12c3c([C@@H](c4c2cccc4)[C@H]5C(OC([C@@H]15)=O)=O)cccc3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc12c3c([C@@H](c4c2cccc4)[C@H]5C(OC([C@@H]15)=O)=O)cccc3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc12c3c([C@@H](c4c2cccc4)[C@H]5C(OC([C@@H]15)=O)=O)cccc3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc12c3c([C@@H](c4c2cccc4)[C@H]5C(OC([C@@H]15)=O)=O)cccc3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc12c3c([C@@H](c4c2cccc4)[C@H]5C(OC([C@@H]15)=O)=O)cccc3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc12c3c([C@@H](c4c2cccc4)[C@H]5C(OC([C@@H]15)=O)=O)cccc3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 12.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C2C(C=CC=C2)=C(C)C3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@@]12[C@@H]3C(=O)C=CC(=O)[C@@H]3[C@](c3c1cccc3)(C)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00036"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00037"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 26.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00038"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 12.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00039"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 6.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00040"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 24.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00041"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00042"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00043"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00044"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00045"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00046"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00047"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00048"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00049"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00050"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00051"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00052"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00053"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00054"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00055"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00056"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00057"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00058"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 21.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00059"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00060"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Hardened Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00061"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 67.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00062"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 82.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 2.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00063"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 91.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 34.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00064"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 104.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1[C@H]2[C@H]([C@@H]3c4ccccc4[C@H]2c2ccccc32)C(=O)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00065"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 42.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00066"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 55.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00067"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 67.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 56.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00068"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C12=CC=CC=C1C=C3C(C=CC=C3)=C2"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(C=C1)OC1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 82.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C2C(C3C4=CC=CC=C4C2C5=CC=CC=C35)C(O1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00069"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 22.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00070"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 36.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 12.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00071"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Diels-Alder"
+  }
+  inputs {
+    key: "inputs-ec58aa"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1=C(C=CC=C2)C2=CC3=CC=CC=C31"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1C=CC(C=C1)=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 50.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 10800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[C@]12c3ccccc3[C@H]([C@H]3C(=O)C=CC(=O)[C@@H]13)c1ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c7sc00538e"
+    publication_url: "https://doi.org/10.1039/C7SC00538E"
+    record_created {
+      time {
+        value: "2025-05-11 22:47:25.531444"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0676839d1d8147a6ae8f45bb97c00072"
+}
+dataset_id: "cmcc_dataset-0676839d1d8147a6ae8f45bb97c0ae01"

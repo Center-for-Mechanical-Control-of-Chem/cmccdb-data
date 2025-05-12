@@ -1,0 +1,16 @@
+﻿"#! This is an input template for conversion to a format supported by the ORD, each reaction can be specified by different Reaction Fields",,,,,,,,,,
+"#! Each reaction is broken into a REACTION and VARIANTS block, which must be in the first column of the spreadsheet",,,,,,,,,,
+"#! In the REACTION block, identifiers are specified which will be added to every generated record, in the VARIANTS block, different reaction conditions are specified",,,,,,,,,,
+"#! Any REACTANT specifications in the REACTION block are assumed to be the first reactant in every variant, there is no way to change them beyond removing them from the REACTION block",,,,,,,,,,
+,,,,,,,,,,
+REACTION,,,,,,,,,,
+,IDENTIFIERS,MECHANOCHEMISTRY,,PROVENANCE,,PROVENANCE,,,,
+,,,,EXPERIMENTER,,,,,,
+,Reaction Type,Type,Liquid Assisted,ORCID,Organization,City,DOI,Publication URL,,
+,Arylation,BALL_MILL,FALSE,0000-0003-3852-6721,"Division of Applied Chemistry, Faculty of Engineering, Hokkaido University ",Hokkaido ,10.1039/d4mr00135d ,https://pubs.rsc.org/en/content/articlepdf/2025/mr/d4mr00135d,,
+VARIANTS,,,,,,,,,,
+,CONDITIONS,INPUTS,,,,,PRODUCTS,,,
+,MECHANOCHEMISTRY,,REACTANT,,REACTANT,,PRODUCT,,PRODUCT,
+,Frequency (Hz),Key,SMILES,Amount (mole),SMILES,Amount (mole),SMILES,Yield (%),SMILES,Yield (%)
+DATA,,,,,,,,,,
+,30,inputs,F/C(F)=C\C1=CC=C(C2=CC=CC=C2)C=C1,0.0005,IC1=CC=CC=C1,0.0015,F/C(C1=CC=CC=C1)=C/C2=CC=C(C3=CC=CC=C3)C=C2,48.6,F/C(C1=CC=CC=C1)=C\C2=CC=C(C3=CC=CC=C3)C=C2,11.4

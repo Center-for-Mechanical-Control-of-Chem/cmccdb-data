@@ -1,0 +1,3243 @@
+name: "pericyclic_10.1055.s-0030-1259030"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 98.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 94.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 96.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 79.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 180.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 73.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 52.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(N1)C=CC1=O"
+        }
+        amount {
+          moles {
+            value: 50.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "THF"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Hexane"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1OC([C@]2([H])[C@@](C3)([H])C=C[C@@]3([H])[C@@]21[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    reaction_time {
+      value: 0.5
+      units: SECOND
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 48.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    reaction_time {
+      value: 3.0
+      units: SECOND
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "[H][C@]12C=CC[C@@]1([H])[C@]3([H])C=C[C@@]2([H])C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "[H][C@]12C=CC[C@@]1([H])[C@]3([H])C=C[C@@]2([H])C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    reaction_time {
+      value: 0.5
+      units: SECOND
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 83.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@@](C4)([H])C=C[C@@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 6.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    reaction_time {
+      value: 0.5
+      units: SECOND
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 14.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    reaction_time {
+      value: 0.5
+      units: SECOND
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 54.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 3.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "[H][C@]12C=CC[C@@]1([H])[C@]3([H])C=C[C@@]2([H])C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 7.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 10.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0036"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 20.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0037"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0038"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pericyclic"
+  }
+  inputs {
+    key: "inputs-6f61dc"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC=CC1"
+        }
+        amount {
+          moles {
+            value: 5.2
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 0.5
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(C)C=C2)C([C@]3([H])[C@](C4)([H])C=C[C@]4([H])[C@]13[H])=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1055/s-0030-1259030"
+    publication_url: "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0030-1259030"
+    record_created {
+      time {
+        value: "2025-05-12 06:18:54.042863"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7fb09551610f402c863c7e16197f0039"
+}
+dataset_id: "cmcc_dataset-7fb09551610f402c863c7e16197f8ee8"

@@ -1,0 +1,4724 @@
+name: "sonogashira_10.1039.B915669K"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 86.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(I)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(I)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.6
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=CC=C1I"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "IC1=CC=CC=C1C#CC2=CC=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(I)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(I)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 9.3
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(I)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "IC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 24.57
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 26.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 33.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1(C#CC2=CC=CC=C2)=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "ClC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 7.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([N+]([O-])=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=[N+](C1=CC=C(C#C[Si](C)(C)C)C=C1)[O-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 66.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C([N+]([O-])=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=[N+](C1=CC=C(C#CC2=CC=CC=C2)C=C1)[O-]"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 4.32
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=C(C#CC2=CC=CC=C2)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=CC=C1Br)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "BrC1=CC=CC=C1C#CC2=CC=CC=C2"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750036"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750037"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750038"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=CC=C1C#C[Si](C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750039"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 39.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750040"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 17.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750041"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750042"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 37.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750043"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750044"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 44.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750045"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=CC=C1C#C[Si](C)(C)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750046"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750047"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750048"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750049"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 86.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750050"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750051"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750052"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750053"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C([H])C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750054"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(C)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C)C#CC1=CC=CC=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750055"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Br)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750056"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(Cl)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Br)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750057"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "IC1=CC=C(OC)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(Cl)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750058"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "BrC1=CC=C(C=O)C=C1"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C[Si](C)(C#CC1=CC=C(OC)C=C1)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.6
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750059"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Sonogashira"
+  }
+  inputs {
+    key: "inputs-64fb24"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#C[Si](C)(C)C"
+        }
+        amount {
+          moles {
+            value: 1.05
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1Br"
+        }
+        amount {
+          moles {
+            value: 0.98
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 142.0
+        units: HERTZ
+      }
+      duration {
+        value: 17.0
+        units: HOUR
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC=C(C#C[Si](C)(C)C)C=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/B915669K"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2009/gc/b915669k"
+    record_created {
+      time {
+        value: "2025-09-02 19:52:17.254401"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-7818799038ba409e9ebcda630a750060"
+}
+dataset_id: "cmcc_dataset-7818799038ba409e9ebcda630a75c7f2"

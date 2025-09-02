@@ -1,0 +1,370 @@
+name: "Crystal_test"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-183a03"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2.[Na+]"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        crystal_parameters {
+          type: ORTHROMBIC
+          database_identifier {
+            type: CSD
+            value: "aaaaaaaa"
+          }
+        }
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 60.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0000-0000-0000"
+      organization: "School of Chemistry and Chemical Engineering Fakesville"
+    }
+    city: "Fakeland"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/1111/111111"
+    record_created {
+      time {
+        value: "2025-09-01 13:37:01.864743"
+      }
+      person {
+        name: "Fake User"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-664c81b20d4747759948f94ce3610001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-183a03"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2.[Na+]"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        crystal_parameters {
+          type: ORTHROMBIC
+          database_identifier {
+            type: CSD
+            value: "aaaaaaaa"
+          }
+        }
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 90.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0000-0000-0000"
+      organization: "School of Chemistry and Chemical Engineering Fakesville"
+    }
+    city: "Fakeland"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/1111/111111"
+    record_created {
+      time {
+        value: "2025-09-01 13:37:01.864743"
+      }
+      person {
+        name: "Fake User"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-664c81b20d4747759948f94ce3610002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-183a03"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2.[Na+]"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        crystal_parameters {
+          type: ORTHROMBIC
+          database_identifier {
+            type: CSD
+            value: "aaaaaaaa"
+          }
+        }
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(OCC)C=C1"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(C2=CC=C(OCC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0000-0000-0000"
+      organization: "School of Chemistry and Chemical Engineering Fakesville"
+    }
+    city: "Fakeland"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/1111/111111"
+    record_created {
+      time {
+        value: "2025-09-01 13:37:01.864743"
+      }
+      person {
+        name: "Fake User"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-664c81b20d4747759948f94ce3610003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "PDI synthesis"
+  }
+  inputs {
+    key: "inputs-183a03"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O1)C2=C3C(C1=O)=CC=CC3=CC=C2.[Na+]"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        crystal_parameters {
+          type: ORTHROMBIC
+          database_identifier {
+            type: CSD
+            value: "aaaaaaaa"
+          }
+        }
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCOC1=CC=C(C=C1)CN"
+        }
+        amount {
+          moles {
+            value: 25.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 110.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1N(CC2=CC=C(OC)C=C2)C(C3=CC=CC4=CC=CC1=C34)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      orcid: "0000-0000-0000-0000"
+      organization: "School of Chemistry and Chemical Engineering Fakesville"
+    }
+    city: "Fakeland"
+    doi: "10.1002/ange.201913625"
+    publication_url: "https://doi.org/1111/111111"
+    record_created {
+      time {
+        value: "2025-09-01 13:37:01.864743"
+      }
+      person {
+        name: "Fake User"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-664c81b20d4747759948f94ce3610004"
+}
+dataset_id: "cmcc_dataset-664c81b20d4747759948f94ce361ea56"

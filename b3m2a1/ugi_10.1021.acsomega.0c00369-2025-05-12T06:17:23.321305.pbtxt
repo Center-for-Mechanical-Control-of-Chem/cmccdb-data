@@ -1,0 +1,2272 @@
+name: "ugi_10.1021.acsomega.0c00369"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 66.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 46.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "EtOH"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 23.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "acetonitrile"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 36.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DMF"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 21.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCM"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 44.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "benzene"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 35.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CCl4"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 49.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 63.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 60.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 100.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 69.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 80.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 100.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 72.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 1000.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 50.0
+        units: RPM
+      }
+      duration {
+        value: 60.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 20.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 20.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 16.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 60.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 20.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 51.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 80.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 20.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 90.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 20.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 100.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 20.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 100.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 20.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "UGI"
+  }
+  inputs {
+    key: "inputs-1095a8"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(O)C1=CC=CC=C1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)([N+]#[C-])C"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 100.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 60.0
+        units: RPM
+      }
+      duration {
+        value: 20.0
+        units: MINUTE
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(N(C(C1=CC=CC=C1)C(NC(C)(C)C)=O)C2=CC=CC=C2)C3=CC=CC=C3"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1021/acsomega.0c00369"
+    publication_url: "https://pubs.acs.org/doi/10.1021/acsomega.0c00369"
+    record_created {
+      time {
+        value: "2025-05-12 06:17:23.321765"
+      }
+      person {
+        name: "Daniel Williams"
+        email: "w0803284@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-6d67607127c646db8ef79f4c3aba0019"
+}
+dataset_id: "cmcc_dataset-6d67607127c646db8ef79f4c3abafd9f"

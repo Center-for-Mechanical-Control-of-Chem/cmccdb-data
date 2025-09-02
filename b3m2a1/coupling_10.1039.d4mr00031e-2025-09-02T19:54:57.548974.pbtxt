@@ -1,0 +1,4702 @@
+name: "coupling_10.1039.d4mr00031e"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 50.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 73.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CaCl2\302\2672H2O"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CaCl2\302\2672H2O"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MnCl2\302\2674H2O"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MnCl2\302\2674H2O"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CoCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 3.3
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CoCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "NiCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 2.5
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "NiCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 2.8
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "ZnCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 8.2
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "ZnCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 6.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CdCl2\302\267H2O"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CdCl2\302\267H2O"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 64.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 40.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "Al"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "Al"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 79.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "PTFE"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "Al"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 72.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00625
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "PTFE"
+      cell_material: "Al"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.005
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 83.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00375
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 83.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.0025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 86.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00125
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 91.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450036"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.005
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 79.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450037"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00375
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450038"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.0025
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450039"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Copper catalyzed coupling"
+  }
+  inputs {
+    key: "inputs-4737d4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C=NCCCC"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=S(C1=CC=C(C)C=C1)(N)=O"
+        }
+        amount {
+          moles {
+            value: 1.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=O"
+        }
+        amount {
+          moles {
+            value: 0.22
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CuCl2"
+        }
+        amount {
+          moles {
+            value: 0.00125
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: CATALYST
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=N(C)=O"
+        }
+        amount {
+          moles {
+            value: 1.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 30.0
+        units: HERTZ
+      }
+      duration {
+        value: 7200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=S(C1=CC=C(C)C=C1)(NC(NCCCC)=O)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, Texas A&M University"
+    }
+    city: "College Station"
+    doi: "10.1039/d4mr00031e"
+    publication_url: "https://doi.org/10.1039/d4mr00031e"
+    record_created {
+      time {
+        value: "2025-09-02 19:54:57.549497"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-3e807bf1876441b59afdf55189450040"
+}
+dataset_id: "cmcc_dataset-3e807bf1876441b59afdf55189453d61"

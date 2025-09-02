@@ -1,0 +1,727 @@
+name: "polyaromatic_synthesis_10.1039.c9ra04921e"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Polyaromatic Synthesis"
+  }
+  inputs {
+    key: "inputs-e07af4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3"
+        }
+        amount {
+          moles {
+            value: 6.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(CBr)OCC"
+        }
+        amount {
+          moles {
+            value: 13.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "K2CO3"
+        }
+        amount {
+          moles {
+            value: 26.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CCCC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 5.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 72000.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(OCC)C1=CC2=CC=CC=C2C=C1C(OCC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c9ra04921e"
+    record_created {
+      time {
+        value: "2025-09-02 19:47:32.233242"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c803c1ae6e4e4cb18ad4a09cbbe70001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Polyaromatic Synthesis"
+  }
+  inputs {
+    key: "inputs-e07af4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(OCC)C1=CC2=CC=CC=C2C=C1C(OCC)=O"
+        }
+        amount {
+          moles {
+            value: 3.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[BH4-]"
+        }
+        amount {
+          moles {
+            value: 12.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "LiCl"
+        }
+        amount {
+          moles {
+            value: 30.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 57600.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OCC1=CC(C=CC=C2)=C2C=C1CO"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c9ra04921e"
+    record_created {
+      time {
+        value: "2025-09-02 19:47:32.233242"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c803c1ae6e4e4cb18ad4a09cbbe70002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Polyaromatic Synthesis"
+  }
+  inputs {
+    key: "inputs-e07af4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OCC1=CC(C=CC=C2)=C2C=C1CO"
+        }
+        amount {
+          moles {
+            value: 1.8
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "OI(C1=CC=CC=C1C2=O)(O2)=O"
+        }
+        amount {
+          moles {
+            value: 5.4
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 28800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC(C=CC=C2)=C2C=C1C=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 81.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c9ra04921e"
+    record_created {
+      time {
+        value: "2025-09-02 19:47:32.233242"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c803c1ae6e4e4cb18ad4a09cbbe70003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Polyaromatic Synthesis"
+  }
+  inputs {
+    key: "inputs-e07af4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3"
+        }
+        amount {
+          moles {
+            value: 3.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(CBr)OCC"
+        }
+        amount {
+          moles {
+            value: 6.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "K2CO3"
+        }
+        amount {
+          moles {
+            value: 13.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC(C=CC=C2)=C2C=C1C=O"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 72000.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(OCC)C1=CC2=CC3=CC=CC=C3C=C2C=C1C(OCC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c9ra04921e"
+    record_created {
+      time {
+        value: "2025-09-02 19:47:32.233242"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c803c1ae6e4e4cb18ad4a09cbbe70004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Polyaromatic Synthesis"
+  }
+  inputs {
+    key: "inputs-e07af4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(OCC)C1=CC2=CC3=CC=CC=C3C=C2C=C1C(OCC)=O"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Na+].[BH4-]"
+        }
+        amount {
+          moles {
+            value: 4.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "LiCl"
+        }
+        amount {
+          moles {
+            value: 10.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 57600.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "OCC1=C(CO)C=C2C(C=C(C=CC=C3)C3=C2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 55.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c9ra04921e"
+    record_created {
+      time {
+        value: "2025-09-02 19:47:32.233242"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c803c1ae6e4e4cb18ad4a09cbbe70005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Polyaromatic Synthesis"
+  }
+  inputs {
+    key: "inputs-e07af4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OCC1=C(CO)C=C2C(C=C(C=CC=C3)C3=C2)=C1"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "OI(C1=CC=CC=C1C2=O)(O2)=O"
+        }
+        amount {
+          moles {
+            value: 3.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 28800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=CC1=CC2=CC(C=CC=C3)=C3C=C2C=C1C=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 81.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c9ra04921e"
+    record_created {
+      time {
+        value: "2025-09-02 19:47:32.233242"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c803c1ae6e4e4cb18ad4a09cbbe70006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Polyaromatic Synthesis"
+  }
+  inputs {
+    key: "inputs-e07af4"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(CBr)OCC"
+        }
+        amount {
+          moles {
+            value: 1.3
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "K2CO3"
+        }
+        amount {
+          moles {
+            value: 2.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=CC1=CC2=CC(C=CC=C3)=C3C=C2C=C1C=O"
+        }
+        amount {
+          moles {
+            value: 0.6
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 80.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 18.0
+        units: HERTZ
+      }
+      duration {
+        value: 43200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(OCC)C1=CC2=CC(C=C(C=CC=C3)C3=C4)=C4C=C2C=C1C(OCC)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 20.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "Department of Chemistry, University of Cincinnati"
+    }
+    city: "Cincinnati"
+    doi: "10.1039/c9ra04921e"
+    record_created {
+      time {
+        value: "2025-09-02 19:47:32.233242"
+      }
+      person {
+        name: "Yeu-Shiuan Ho"
+        email: "yeushiuanho@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c803c1ae6e4e4cb18ad4a09cbbe70007"
+}
+dataset_id: "cmcc_dataset-c803c1ae6e4e4cb18ad4a09cbbe79ab9"

@@ -1,0 +1,2503 @@
+name: "condensation_16"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=CC=C(C=O)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 160.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)ccc(/C=C2C(NC(NC\\2=O)=O)=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC(C=O)=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 160.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(OC)cc(/C=C2C(NC(NC\\2=O)=O)=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(Br)C=C(C=O)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 160.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(Br)cc(/C=C2C(NC(NC\\2=O)=O)=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=CC=C(C=O)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 82.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "N#CCC#N"
+        }
+        amount {
+          moles {
+            value: 82.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[Na+]"
+        }
+        amount {
+          moles {
+            value: 8.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 120.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)ccc(/C=C(C#N)/C#N)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=CC=C(C=O)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 66.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCOC(CC#N)=O"
+        }
+        amount {
+          moles {
+            value: 66.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[Na+]"
+        }
+        amount {
+          moles {
+            value: 16.42
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 160.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 360.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CCOC(/C(C#N)=C/c1cc(OC)c(O)cc1)=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 82.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 41.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 80.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 82.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 41.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 80.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 45.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 82.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 41.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 80.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 82.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 41.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 100.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 91.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 82.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 41.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 120.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 120.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C(c1cc(OC)c(OC)cc1)=O"
+        }
+        amount {
+          moles {
+            value: 60.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1(CC(CC(C1)=O)=O)C"
+        }
+        amount {
+          moles {
+            value: 120.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 120.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 200.0
+        units: RPM
+      }
+      duration {
+        value: 720.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(OC)cc(C(C2=C(CC(C)(CC2=O)C)O)C3=C(CC(C)(CC3=O)C)O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-f509d5"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1c2c(C(C1(O)O)=O)cccc2"
+        }
+        amount {
+          moles {
+            value: 57.4
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1(CC(CC(C1)=O)=O)C"
+        }
+        amount {
+          moles {
+            value: 57.4
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[Na+]"
+        }
+        amount {
+          moles {
+            value: 8.68
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 100.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: TWIN_SCREW
+      frequency {
+        value: 55.0
+        units: RPM
+      }
+      duration {
+        value: 720.0
+        units: SECOND
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1(CC(C(C(C1)=O)C2(C(c3c(C2=O)cccc3)=O)O)=O)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=CC=C(C=O)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O"
+        }
+        amount {
+          moles {
+            value: 0.694
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)ccc(/C=C2C(NC(NC\\2=O)=O)=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 66.59
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=CC=C(C=O)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O"
+        }
+        amount {
+          moles {
+            value: 0.694
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 3600.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)ccc(/C=C2C(NC(NC\\2=O)=O)=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.29
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC(C=O)=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O"
+        }
+        amount {
+          moles {
+            value: 0.694
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(OC)cc(/C=C2C(NC(NC\\2=O)=O)=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 12.13
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC(C=O)=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O"
+        }
+        amount {
+          moles {
+            value: 0.694
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 3600.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(OC)cc(/C=C2C(NC(NC\\2=O)=O)=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.5
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COC1=CC(C=O)=CC=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O"
+        }
+        amount {
+          moles {
+            value: 0.694
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 5400.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(OC)cc(/C=C2C(NC(NC\\2=O)=O)=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 98.61
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(Br)C=C(C=O)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O"
+        }
+        amount {
+          moles {
+            value: 0.694
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(Br)cc(/C=C2C(NC(NC\\2=O)=O)=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 54.4
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(Br)C=C(C=O)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O"
+        }
+        amount {
+          moles {
+            value: 0.694
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 3600.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(Br)cc(/C=C2C(NC(NC\\2=O)=O)=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.8
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(Br)C=C(C=O)C=C1OC"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(NC1=O)NC(C1)=O"
+        }
+        amount {
+          moles {
+            value: 1.9
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O"
+        }
+        amount {
+          moles {
+            value: 0.694
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 5400.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(Br)cc(/C=C2C(NC(NC\\2=O)=O)=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.3
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 1.31
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 0.65
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC"
+        }
+        amount {
+          moles {
+            value: 0.967
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 900.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 74.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 1.31
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 0.65
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC"
+        }
+        amount {
+          moles {
+            value: 0.967
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 900.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 1.31
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 0.65
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 900.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 1.31
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 0.65
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 1200.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 93.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC1=C(OC)C=CC=C1C=O"
+        }
+        amount {
+          moles {
+            value: 1.31
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1=CC=C(C=C1)OC2=CC=C(N)C=C2"
+        }
+        amount {
+          moles {
+            value: 0.65
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "OC"
+        }
+        amount {
+          moles {
+            value: 0.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1c(O)c(/C=N/c2ccc(Oc3ccc(/N=C/c4c(O)c(OC)ccc4)cc3)cc2)ccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Condensation"
+  }
+  inputs {
+    key: "inputs-c780a1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C1c2c(C(C1(O)O)=O)cccc2"
+        }
+        amount {
+          moles {
+            value: 2.81
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1(CC(CC(C1)=O)=O)C"
+        }
+        amount {
+          moles {
+            value: 2.81
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "[O-]C([O-])=O.[Na+]"
+        }
+        amount {
+          moles {
+            value: 0.217
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 1800.0
+        units: SECOND
+      }
+      ball_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC1(CC(C(C(C1)=O)C2(C(c3c(C2=O)cccc3)=O)O)=O)C"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 100.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      organization: "School of Chemistry and Chemical Engineering, Queen\'s University"
+    }
+    city: "Belfast"
+    doi: "10.1039/c6gc03413f"
+    publication_url: "https://pubs.rsc.org/en/content/articlelanding/2017/gc/c6gc03413f"
+    record_created {
+      time {
+        value: "2025-09-24 12:31:34.155378"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-c4bf3ee086324b528fb384b80a1e0026"
+}
+dataset_id: "cmcc_dataset-c4bf3ee086324b528fb384b80a1ece97"

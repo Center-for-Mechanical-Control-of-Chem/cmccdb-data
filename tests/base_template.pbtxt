@@ -1,11 +1,11 @@
-name: "Crystal_test"
+name: "base_template"
 reactions {
   identifiers {
     type: REACTION_TYPE
     value: "PDI synthesis"
   }
   inputs {
-    key: "inputs-26285a"
+    key: "inputs-111ad8"
     value {
       components {
         identifiers {
@@ -19,6 +19,7 @@ reactions {
           }
         }
         reaction_role: REACTANT
+        is_limiting: true
         crystal_parameters {
           type: ORTHROMBIC
           database_identifier {
@@ -71,6 +72,9 @@ reactions {
     }
   }
   outcomes {
+    conversion {
+      value: 100.0
+    }
     products {
       identifiers {
         type: SMILES
@@ -87,23 +91,24 @@ reactions {
   }
   provenance {
     experimenter {
+      name: "Professor Professorson"
       orcid: "0000-0000-0000-0000"
       organization: "School of Chemistry and Chemical Engineering Fakesville"
     }
     city: "Fakeland"
-    doi: "10.1002/ange.201913625"
+    doi: "10.1002/000000"
     publication_url: "https://doi.org/1111/111111"
     record_created {
       time {
-        value: "2025-09-08 17:02:05.956726"
+        value: "2025-09-24 12:51:00"
       }
       person {
         name: "Fake User"
-        email: "w0803284@tamu.edu"
+        email: "user@tamu.edu"
       }
     }
   }
-  reaction_id: "cmcc-0a0dd810389a4906904182d6c7b40001"
+  reaction_id: "cmcc-d65777e162204aab9919dc51841e0001"
 }
 reactions {
   identifiers {
@@ -111,7 +116,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "inputs-26285a"
+    key: "inputs-111ad8"
     value {
       components {
         identifiers {
@@ -125,6 +130,7 @@ reactions {
           }
         }
         reaction_role: REACTANT
+        is_limiting: true
         crystal_parameters {
           type: ORTHROMBIC
           database_identifier {
@@ -163,6 +169,9 @@ reactions {
     }
   }
   outcomes {
+    conversion {
+      value: 100.0
+    }
     products {
       identifiers {
         type: SMILES
@@ -179,23 +188,24 @@ reactions {
   }
   provenance {
     experimenter {
+      name: "Professor Professorson"
       orcid: "0000-0000-0000-0000"
       organization: "School of Chemistry and Chemical Engineering Fakesville"
     }
     city: "Fakeland"
-    doi: "10.1002/ange.201913625"
+    doi: "10.1002/000000"
     publication_url: "https://doi.org/1111/111111"
     record_created {
       time {
-        value: "2025-09-08 17:02:05.956726"
+        value: "2025-09-24 12:51:00"
       }
       person {
         name: "Fake User"
-        email: "w0803284@tamu.edu"
+        email: "user@tamu.edu"
       }
     }
   }
-  reaction_id: "cmcc-0a0dd810389a4906904182d6c7b40002"
+  reaction_id: "cmcc-d65777e162204aab9919dc51841e0002"
 }
 reactions {
   identifiers {
@@ -203,7 +213,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "inputs-26285a"
+    key: "inputs-111ad8"
     value {
       components {
         identifiers {
@@ -217,6 +227,7 @@ reactions {
           }
         }
         reaction_role: REACTANT
+        is_limiting: true
         crystal_parameters {
           type: ORTHROMBIC
           database_identifier {
@@ -256,6 +267,9 @@ reactions {
     }
   }
   outcomes {
+    conversion {
+      value: 100.0
+    }
     products {
       identifiers {
         type: SMILES
@@ -272,23 +286,24 @@ reactions {
   }
   provenance {
     experimenter {
+      name: "Professor Professorson"
       orcid: "0000-0000-0000-0000"
       organization: "School of Chemistry and Chemical Engineering Fakesville"
     }
     city: "Fakeland"
-    doi: "10.1002/ange.201913625"
+    doi: "10.1002/000000"
     publication_url: "https://doi.org/1111/111111"
     record_created {
       time {
-        value: "2025-09-08 17:02:05.956726"
+        value: "2025-09-24 12:51:00"
       }
       person {
         name: "Fake User"
-        email: "w0803284@tamu.edu"
+        email: "user@tamu.edu"
       }
     }
   }
-  reaction_id: "cmcc-0a0dd810389a4906904182d6c7b40003"
+  reaction_id: "cmcc-d65777e162204aab9919dc51841e0003"
 }
 reactions {
   identifiers {
@@ -296,7 +311,7 @@ reactions {
     value: "PDI synthesis"
   }
   inputs {
-    key: "inputs-26285a"
+    key: "inputs-111ad8"
     value {
       components {
         identifiers {
@@ -310,6 +325,7 @@ reactions {
           }
         }
         reaction_role: REACTANT
+        is_limiting: true
         crystal_parameters {
           type: ORTHROMBIC
           database_identifier {
@@ -348,6 +364,9 @@ reactions {
     }
   }
   outcomes {
+    conversion {
+      value: 100.0
+    }
     products {
       identifiers {
         type: SMILES
@@ -364,22 +383,23 @@ reactions {
   }
   provenance {
     experimenter {
+      name: "Professor Professorson"
       orcid: "0000-0000-0000-0000"
       organization: "School of Chemistry and Chemical Engineering Fakesville"
     }
     city: "Fakeland"
-    doi: "10.1002/ange.201913625"
+    doi: "10.1002/000000"
     publication_url: "https://doi.org/1111/111111"
     record_created {
       time {
-        value: "2025-09-08 17:02:05.956726"
+        value: "2025-09-24 12:51:00"
       }
       person {
         name: "Fake User"
-        email: "w0803284@tamu.edu"
+        email: "user@tamu.edu"
       }
     }
   }
-  reaction_id: "cmcc-0a0dd810389a4906904182d6c7b40004"
+  reaction_id: "cmcc-d65777e162204aab9919dc51841e0004"
 }
-dataset_id: "cmcc_dataset-0a0dd810389a4906904182d6c7b470cd"
+dataset_id: "cmcc_dataset-d65777e162204aab9919dc51841eaddb"

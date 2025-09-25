@@ -1,0 +1,1807 @@
+name: "co2_fixation_10.1039.D5MR00072F"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 60.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 3
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 100.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 99.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 60.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 3
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 97.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 89.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 60.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 10.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 98.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 95.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 30.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 5
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 78.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 60.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 1
+      ball_radius {
+        value: 25.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 71.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 20.0
+        units: HERTZ
+      }
+      duration {
+        value: 60.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 3
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 93.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 25.0
+        units: HERTZ
+      }
+      duration {
+        value: 60.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 3
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 84.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 43.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(=O)[O-].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 30.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 3
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 9.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 1.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1=CC(P(C2=CC=C(C)C=C2)C2=CC=C(C)C=C2)=CC=C1C"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 30.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 3
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 82.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 31.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 30.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 3
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 31.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 30.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 3
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 10.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    stirring {
+      type: STIR_BAR
+      details: "30 minutes, recovery flask"
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 15.0
+        units: HERTZ
+      }
+      duration {
+        value: 30.0
+        units: MINUTE
+      }
+      ball_material: "Stainless steel"
+      cell_material: "Stainless steel"
+      number_of_balls: 3
+      ball_radius {
+        value: 15.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 1.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-0fafce"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+  }
+  outcomes {
+    conversion {
+      value: 18.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 7.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Propargyl synthesis"
+  }
+  inputs {
+    key: "inputs-dd03ac"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#CC(C)(O)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C([O-])[O-].[Ag+].[Ag+]"
+        }
+        amount {
+          moles {
+            value: 0.02
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(P(C2C=CC=CC=2)C2C=CC=CC=2)C=1"
+        }
+        amount {
+          moles {
+            value: 0.06
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DCE"
+        }
+        amount {
+          moles {
+            value: 2.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    pressure {
+      control {
+        type: AMBIENT
+      }
+      setpoint {
+        value: 1.0
+        units: ATMOSPHERE
+      }
+      atmosphere {
+        type: CARBON_DIOXIDE
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 800.0
+        units: RPM
+      }
+      duration {
+        value: 30.0
+        units: MINUTE
+      }
+      ball_material: "ZrO2"
+      cell_material: "ZrO2"
+      number_of_balls: 50
+    }
+  }
+  outcomes {
+    conversion {
+      value: 96.0
+    }
+    products {
+      identifiers {
+        type: SMILES
+        value: "C=C1OC(=O)OC1(C)c1ccccc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 48.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Naohito Tomita"
+      organization: "Laboratory of Advanced Chemistry, Gifu Pharmaceutical University"
+    }
+    city: "Gifu, Japan"
+    doi: "10.1039/D5MR00072F"
+    publication_url: "https://doi.org/10.1039/D5MR00072F"
+    record_created {
+      time {
+        value: "2025-09-24 02:42:00"
+      }
+      person {
+        name: "Mark Boyer"
+        email: "maboyer@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-09aa331c19b94ca0b0dd31b68f880014"
+}
+dataset_id: "cmcc_dataset-09aa331c19b94ca0b0dd31b68f88cf60"

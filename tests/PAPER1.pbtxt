@@ -1,0 +1,8215 @@
+name: "PAPER1"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Neutral alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 60.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  observations {
+    comment: "Could not isolate"
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500001"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 5.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500002"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500003"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 15.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500004"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Acidic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 28.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500005"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Silica"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500006"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "NaCl"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500007"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500008"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      details: "Marked as tungsten carbide jar, however, it can be somewhat assumed through the subsequent text that entry 23 is the control group containing the tungsten carbide jar"
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 60.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500009"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 8
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 84.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500010"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 6
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500011"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "CH3CN"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500012"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "DMSO"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500013"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "H2O"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 18.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500014"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 26.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500015"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "EtOH"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 240.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 24.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500016"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina (20 mol%)"
+        }
+        amount {
+          moles {
+            value: 0.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 720.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 30.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500017"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "EtOH"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina (20 mol%)"
+        }
+        amount {
+          moles {
+            value: 0.1
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 720.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 26.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500018"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina (50 mol%)"
+        }
+        amount {
+          moles {
+            value: 0.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 720.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500019"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina (1 equiv.)"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 720.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 32.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500020"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 720.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 32.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500021"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "MeOH"
+        }
+        amount {
+          volume {
+            value: 1.5
+            units: MILLILITER
+          }
+        }
+        reaction_role: SOLVENT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina (50 mol%)"
+        }
+        amount {
+          moles {
+            value: 0.25
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: HAND_GRIND
+      duration {
+        value: 720.0
+        units: MINUTE
+      }
+      cell_material: "Stainless Steel"
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 38.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500022"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      details: "Marked as tungsten carbide jar, however, it can be somewhat assumed through the subsequent text that entry 23 is the control group containing the tungsten carbide jar"
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Tungsten Carbide"
+      cell_material: "Tungsten Carbide"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500023"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500024"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1N"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccccc1NC1=CC(=O)c2ccccc2C1=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 80.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500025"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc(N)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(NC2=CC(=O)c3ccccc3C2=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 85.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500026"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCc1ccc(N)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CCc1ccc(NC2=CC(=O)c3ccccc3C2=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 76.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500027"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)c1ccc(N)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C)c1ccc(NC2=CC(=O)c3ccccc3C2=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500028"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)(C)c1ccc(N)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CC(C)(C)c1ccc(NC2=CC(=O)c3ccccc3C2=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500029"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "COc1ccccc1N"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1ccccc1NC1=CC(=O)c2ccccc2C1=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500030"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "COc1cccc(N)c1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1cccc(NC2=CC(=O)c3ccccc3C2=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500031"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "COc1ccc(N)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COc1ccc(NC2=CC(=O)c3ccccc3C2=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 75.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500032"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CSc1cccc(N)c1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Silica"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CSc1cccc(NC2=CC(=O)c3ccccc3C2=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 77.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500033"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CSc1ccc(N)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "CSC1C=CC(NC2=CC(=O)C3=CC=CC=C3C2=O)=CC=1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 78.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500034"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1[N+](=O)[O-]"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccccc2[N+](=O)[O-])C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 54.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500035"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc([N+](=O)[O-])cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccc([N+](=O)[O-])cc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 58.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500036"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(F)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccc(F)cc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 67.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500037"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(Cl)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccc(Cl)cc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 69.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500038"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1cc(Cl)ccc1Cl"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2cc(Cl)ccc2Cl)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 67.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500039"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(Br)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccc(Br)cc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 87.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500040"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(I)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccc(I)cc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500041"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(C(F)(F)F)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccc(C(F)(F)F)cc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 82.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500042"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1cc(C(F)(F)F)cc(C(F)(F)F)c1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C1C(C(F)(F)F)=CC(NC2=CC(=O)C3=CC=CC=C3C2=O)=CC=1C(F)(F)F"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500043"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(OC(F)(F)F)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccc(OC(F)(F)F)cc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 63.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500044"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(SC(F)(F)F)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(Nc2ccc(SC(F)(F)F)cc2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500045"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(Oc2ccc(Cl)cc2)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2ccc(Oc3ccc(Cl)cc3)cc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 53.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500046"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1C#N"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "N#Cc1ccccc1NC1=CC(=O)c2ccccc2C1=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 57.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500047"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1C#N"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "N#Cc1ccc(NC2=CC(=O)c3ccccc3C2=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 62.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500048"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "N#Cc1ccc(N)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(O)c1ccccc1NC1=CC(=O)c2ccccc2C1=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 61.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500049"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1cccc(C(=O)O)c1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(O)c1cccc(NC2=CC(=O)c3ccccc3C2=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 68.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500050"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(C(=O)O)cc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(O)c1ccc(NC2=CC(=O)c3ccccc3C2=O)cc1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 72.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500051"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1cccc(F)c1C(=O)O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(Nc2cccc(F)c2C(=O)O)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500052"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccc(Cl)cc1C(=O)O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C(O)c1cc(Cl)ccc1NC1=CC(=O)c2ccccc2C1=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 67.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500053"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C(N)=C(C(O)C)C=CC=1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "COCc1ccccc1NC1=CC(=O)c2ccccc2C1=O"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 55.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500054"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C#Cc1cccc(N)c1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "C#Cc1cccc(NC2=CC(=O)c3ccccc3C2=O)c1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500055"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CCCCN"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NCCCC)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 56.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500056"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)CN"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NCC(C)C)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 52.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500057"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCCCCC"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NCCCCCC)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 54.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500058"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C=CCN"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NCC=C)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 70.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500059"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1CCCC1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2CCCC2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 59.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500060"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NC1CCCCC1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2CCCCC2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 55.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500061"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(NCc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 65.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500062"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "NCCc1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(NCCc2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 61.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500063"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "N(c1ccccc1)c1ccccc1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1C=C(N(c2ccccc2)c2ccccc2)C(=O)c2ccccc21"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 61.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500064"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1CCNC1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(N2CCCC2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 57.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500065"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1COCCN1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(N2CCOCC2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 53.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500066"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "Nc1ccccc1S"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=c1c2[nH]c3ccccc3sc=2c(=O)c2ccccc12"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 56.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500067"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(N)C=1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2C=CC=CC=2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500068"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(N)C=1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "TEMPO"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2C=CC=CC=2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500069"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(N)C=1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "TEMPO"
+        }
+        amount {
+          moles {
+            value: 4.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2C=CC=CC=2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500070"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(N)C=1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "p-Benzoquinone"
+        }
+        amount {
+          moles {
+            value: 1.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2C=CC=CC=2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500071"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(N)C=1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "p-Benzoquinone"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2C=CC=CC=2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 88.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500072"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(N)C=1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "BHT"
+        }
+        amount {
+          moles {
+            value: 2.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2C=CC=CC=2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 92.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500073"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(N)C=1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "BHT"
+        }
+        amount {
+          moles {
+            value: 4.0
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2C=CC=CC=2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 90.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500074"
+}
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "mechanochemistry-driven regioselective amination"
+  }
+  inputs {
+    key: "inputs-ef5110"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[H]C1=CC(=O)c2ccccc2C1=O"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: SMILES
+          value: "C1C=CC=C(N)C=1"
+        }
+        amount {
+          moles {
+            value: 0.5
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "Basic alumina"
+        }
+        amount {
+          mass {
+            value: 1.5
+            units: GRAM
+          }
+        }
+        reaction_role: ADDITIVE
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        details: "room temperature"
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: BALL_MILL
+      frequency {
+        value: 550.0
+        units: HERTZ
+      }
+      duration {
+        value: 10.0
+        units: MINUTE
+      }
+      ball_material: "Stainless Steel"
+      cell_material: "Stainless Steel"
+      number_of_balls: 7
+      ball_radius {
+        value: 5.0
+        units: MILLIMETER
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "O=C1c2c(cccc2)C(=O)C(NC2C=CC=CC=2)=C1"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 86.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+  provenance {
+    doi: "10.1039/d5mr00068h"
+    publication_url: "https://pubs.rsc.org/en/content/articlepdf/2025/mr/d5mr00068h"
+    record_created {
+      time {
+        value: "2026-02-16 09:56:14.110106"
+      }
+      person {
+        name: "John Elmore"
+        email: "jyelmo06@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0bc66be3c35b46aaa20bcbe387500075"
+}
+dataset_id: "cmcc_dataset-0bc66be3c35b46aaa20bcbe38750c84b"

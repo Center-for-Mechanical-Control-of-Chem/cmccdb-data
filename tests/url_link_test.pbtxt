@@ -1,0 +1,121 @@
+name: "url_link_test"
+reactions {
+  identifiers {
+    type: REACTION_TYPE
+    value: "Pressure-Induced Phase Change"
+  }
+  inputs {
+    key: "inputs-0"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Nd+2].[I-][I-]"
+        }
+        amount {
+          unmeasured {
+            type: SATURATED
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: true
+        crystal_parameters {
+          type: TETRAGONAL
+          database_identifier {
+            type: CSD
+            value: "TBD"
+          }
+        }
+      }
+      components {
+        identifiers {
+          type: NAME
+          value: "asdasdasd"
+        }
+        amount {
+          unmeasured {
+            type: SATURATED
+          }
+        }
+        reaction_role: REACTANT
+      }
+    }
+  }
+  conditions {
+    temperature {
+      measurements {
+        type: THERMOCOUPLE_INTERNAL
+        temperature {
+          value: 25.0
+          units: CELSIUS
+        }
+      }
+    }
+    mechanochemistry {
+      type: ANVIL_CELL
+      details: "Beryllium gasket, 300 micron aperture"
+      cell_material: "Diamond"
+    }
+  }
+  outcomes {
+    conversion {
+      value: 28.0
+    }
+    products {
+      identifiers {
+        type: NAME
+        value: "Nd"
+      }
+      measurements {
+        type: YIELD
+        percentage {
+          value: 0.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+    analyses {
+      key: "analyses-0"
+      value {
+        type: XAS
+        data {
+          key: "data-0"
+          value {
+            url: "0ce7382292526290fd99ff66db208fba_ndi2_xas_spectrum.csv"
+          }
+        }
+      }
+    }
+    analyses {
+      key: "analyses-1"
+      value {
+        type: EDX
+        data {
+          key: "data-0"
+          value {
+            url: "0ce7382292526290fd99ff66db208fba_ndi2_eds_spectrum.csv"
+          }
+        }
+      }
+    }
+  }
+  provenance {
+    experimenter {
+      name: "Henry Jemison"
+      orcid: "0009-0004-9824-8705"
+      organization: "Texas A&M University"
+    }
+    city: "College Station"
+    record_created {
+      time {
+        value: "2026-02-16 10:51:11.160000"
+      }
+      person {
+        name: "Henry Jemison"
+        email: "hmjdol@tamu.edu"
+      }
+    }
+  }
+  reaction_id: "cmcc-0ce7382292526290fd99ff66db200001"
+}
+dataset_id: "cmcc_dataset-0ce7382292526290fd99ff66db208fba"

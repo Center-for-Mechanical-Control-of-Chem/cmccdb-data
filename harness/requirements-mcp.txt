@@ -1,0 +1,9 @@
+# Additional packages for source-based launching from the existing ARM
+# scientific environment. CMCCDB is read from the sibling schema checkout.
+mcp>=2.2,<3
+pydantic>=2.7,<3
+protobuf>=5.27.3,<6
+Werkzeug>=3.1,<4
+
+# Real molecular graph validation; provision for the native target architecture.
+rdkit>=2024.3

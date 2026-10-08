@@ -18,4 +18,6 @@ coverage*
 # Node.
 package-lock.json
 node_modules/
+tests/papers
+tests/rsc_mechanochemistry
 ~*.xlsx

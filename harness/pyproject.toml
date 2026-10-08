@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cmccdb-extraction"
+version = "0.1.0"
+description = "Evidence-backed paper extraction tools for CMCCDB agents"
+requires-python = ">=3.11"
+dependencies = ["mcp>=2.2,<3", "pydantic>=2.7,<3", "openpyxl>=3.1,<4", "rdkit>=2024.3", "cmccdb-schema"]
+
+[project.scripts]
+cmccdb-extract-mcp = "cmccdb_extraction.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+cmccdb_extraction = ["*.mjs"]

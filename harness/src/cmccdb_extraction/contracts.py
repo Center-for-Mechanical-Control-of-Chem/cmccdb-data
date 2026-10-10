@@ -41,6 +41,20 @@ class Experiment(Contract):
     scope: str = Field(min_length=1, max_length=4000)
 
 
+class TaskDispatch(Contract):
+    complexity: Literal["routine", "contextual", "expert"]
+    reason: str = Field(min_length=1, max_length=2000)
+    required_capabilities: list[Literal["text", "vision", "chemistry"]] = Field(
+        default_factory=lambda: ["text"], max_length=3)
+
+    @field_validator("reason")
+    @classmethod
+    def meaningful_reason(cls, value):
+        if not value.strip():
+            raise ValueError("Dispatch reason must explain the task's complexity")
+        return value
+
+
 class Task(Contract):
     task_id: str = Field(pattern=r"^[A-Za-z0-9_-]{1,80}$")
     experiment_keys: list[str] = Field(min_length=1, max_length=100)
@@ -50,6 +64,8 @@ class Task(Contract):
     modality: Literal["text", "vision", "mixed"] = "text"
     depends_on: list[str] = Field(default_factory=list, max_length=50)
     required_workers: int = Field(default=2, ge=2, le=5)
+    # Omitted only for backwards compatibility; new managers classify every task.
+    dispatch: TaskDispatch | None = None
 
 
 class Plan(Contract):

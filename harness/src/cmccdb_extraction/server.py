@@ -108,15 +108,15 @@ def build_server(pipeline):
 
     @tool(annotations=write)
     def install_search_plan(run_id: str, plan: Plan) -> dict:
-        """Install an immutable experiment inventory and task dependency graph. Record excluded coverage explicitly."""
+        """Install an immutable inventory and task graph, with dispatch complexity/reason/capabilities for new tasks. Record excluded coverage explicitly."""
         return pipeline.set_plan(run_id, plan.model_dump())
 
     @tool(annotations=write)
     def lease_extraction_task(run_id: str, worker_id: str, model_revision: str,
                               worker_kind: str = "external_model", task_id: str | None = None,
-                              lease_seconds: int = 600) -> dict:
-        """Lease eligible work and get a blind evidence/schema packet. Each worker identity stays bound to its model revision."""
-        return pipeline.lease(run_id, worker_id, model_revision, worker_kind, task_id, lease_seconds)
+                              lease_seconds: int = 600, dispatch_note: str = "") -> dict:
+        """Lease work after host-side model selection; includes blind evidence/schema and routing advice. Record fallback reasons with dispatch_note. Worker identity stays bound to its model revision."""
+        return pipeline.lease(run_id, worker_id, model_revision, worker_kind, task_id, lease_seconds, dispatch_note)
 
     @tool(annotations=write)
     def submit_extraction(run_id: str, task_id: str, worker_id: str, lease_token: str,
@@ -158,7 +158,7 @@ def build_server(pipeline):
 
     @tool(annotations=read)
     def get_run_status(run_id: str) -> dict:
-        """Inspect persisted run and task state after interruptions or server restarts."""
+        """Inspect task routing recommendations before host-side delegation and persisted completion state for resume."""
         return pipeline.status(run_id)
 
     @tool(annotations=read)

@@ -18,8 +18,9 @@ from .responses import inspection_response
 from .agent_policy import policy_instructions
 
 
-SERVER_WORKFLOW = """CMCCDB paper extraction tools. Manager flow: list_papers -> create_run
-with a main PDF and optional SI -> read_source_page/search_evidence/view_page ->
+SERVER_WORKFLOW = """CMCCDB paper extraction tools. Manager flow: list_papers, following
+next_offset until null to discover every PDF -> create_run with a main PDF and
+optional PDF/XLSX/UTF-8 TeX/CIF SI -> read_source_page/search_evidence/view_page ->
 schema_catalog -> install_search_plan -> delegate independent workers. Worker flow:
 lease_extraction_task with a persistent worker ID and actual model revision -> read
 the supplied evidence and related context -> submit_extraction. Manager then checks
@@ -54,15 +55,16 @@ def build_server(pipeline):
         return pipeline.capabilities()
 
     @tool(annotations=read)
-    def list_papers() -> dict:
-        """List local PDFs inside the configured read-only paper roots."""
-        return pipeline.list_papers()
+    def list_papers(offset: Annotated[int, Field(ge=0, strict=True)] = 0,
+                    limit: Annotated[int, Field(ge=1, le=500, strict=True)] = 500) -> dict:
+        """List local PDFs, following next_offset until null. Limit 1-500; keep the source inventory unchanged while paging."""
+        return pipeline.list_papers(offset, limit)
 
     @tool(annotations=write)
     def create_run(paper: str, supporting_information: list[str] | None = None,
                    dataset_name: str = "Paper extraction", curator_name: str = "",
                    curator_email: str = "", idempotency_key: str | None = None) -> dict:
-        """Archive a main PDF and PDF/XLSX/UTF-8 TeX SI. Original cells/lines are cited; formulas and TeX are never executed."""
+        """Archive a main PDF and PDF/XLSX/UTF-8 TeX/CIF SI. Cite original cells/file lines; CIF chemistry is not parsed or inferred and source content is never executed."""
         return pipeline.create_run(paper, supporting_information, dataset_name, curator_name,
                                    curator_email, idempotency_key)
 
@@ -87,12 +89,12 @@ def build_server(pipeline):
 
     @tool(annotations=read)
     def read_evidence(run_id: str, evidence_ids: list[str]) -> dict:
-        """Read up to 100 exact PDF lines/pages, SI workbook cells or original TeX file lines."""
+        """Read up to 100 exact PDF lines/pages, SI workbook cells or original TeX/CIF file lines."""
         return dict(evidence=pipeline.evidence(run_id, evidence_ids))
 
     @tool(annotations=read)
     def read_source_page(run_id: str, source_id: str, page: int, offset: int = 0, limit: int = 100) -> dict:
-        """Read PDF page lines, an SI sheet's cells or TeX lines; paginate to include all context."""
+        """Read PDF page lines, SI sheet cells or TeX/CIF file lines (logical page=1); paginate to include all context."""
         index, _ = pipeline.index(run_id, source_id)
         if not 1 <= page <= len(index["pages"]) or offset < 0 or not 1 <= limit <= 300:
             raise ValueError("Invalid page, offset or limit")
@@ -215,7 +217,7 @@ def build_server(pipeline):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--paper-root", action="append", required=True,
-                        help="Read-only PDF source root; may be repeated")
+                        help="Read-only main-PDF and PDF/XLSX/TeX/CIF supporting-source root; may be repeated")
     parser.add_argument("--work-root", required=True, help="Directory for run archives and SQLite state")
     parser.add_argument("--poppler-bin", help="Directory containing pdftotext and pdftoppm")
     parser.add_argument("--node", help="Node executable for the XLSX backend")

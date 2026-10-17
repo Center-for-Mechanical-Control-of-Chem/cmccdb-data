@@ -62,6 +62,8 @@ class Pipeline:
         from cmccdb_schema.proto import reaction_pb2
         rdkit = inspect_smiles("CCO")
         typed_strings = "template" in inspect.signature(DatasetConstructor.sanitize_csv_data).parameters
+        from cmccdb_schema import dataset_constructor
+        dataset_metadata = getattr(dataset_constructor, "DATASET_METADATA_MARKER", None) == "Dataset (v1)"
         return dict(harness_version="0.1.0", agent_policy=policy_metadata(),
                     dispatch_policy=dispatch_policy(),
                     schema_sha256=schema_hash(), pdf_ready=not pdf_errors,
@@ -69,7 +71,10 @@ class Pipeline:
                     chemical_review_required=True,
                     product_crystal_field_available="crystal_parameters" in reaction_pb2.ProductCompound.DESCRIPTOR.fields_by_name,
                     angstrom_length_unit_available="ANGSTROM" in reaction_pb2.Length.DESCRIPTOR.enum_types_by_name["LengthUnit"].values_by_name,
-                    xlsx_ready=not xlsx_error and typed_strings,
+                    supported_source_formats=["pdf", "xlsx", "tex", "cif"],
+                    paper_discovery_pagination=dict(default_limit=500, maximum_limit=500),
+                    xlsx_ready=not xlsx_error and typed_strings and dataset_metadata,
+                    dataset_metadata_supported=dataset_metadata,
                     xlsx_error=xlsx_error, schema_string_patch_present=typed_strings,
                     worker_execution="External MCP hosts provide manager and worker LLM instances",
                     writes="Local run state and export files only")
@@ -83,20 +88,25 @@ class Pipeline:
             except FileNotFoundError:
                 continue
             if (any(path.is_relative_to(root) for root in self.paper_roots) and path.is_file()
-                    and path.suffix.lower() in (".pdf", ".xlsx", ".tex")):
+                    and path.suffix.lower() in (".pdf", ".xlsx", ".tex", ".cif")):
                 if path.stat().st_size > 100 * 1024 * 1024:
                     raise ValueError("Source exceeds the 100 MB ingestion limit")
                 return path
-        raise ValueError("Source must be a PDF, XLSX SI or UTF-8 TeX inside a configured paper root")
+        raise ValueError("Source must be a PDF, XLSX SI, UTF-8 TeX or UTF-8 CIF inside a configured paper root")
 
-    def list_papers(self):
+    def list_papers(self, offset=0, limit=500):
+        if type(offset) is not int or offset < 0:
+            raise ValueError("offset must be a nonnegative integer")
+        if type(limit) is not int or not 1 <= limit <= 500:
+            raise ValueError("limit must be an integer between 1 and 500")
         papers = []
         for root in self.paper_roots:
             for path in sorted(root.rglob("*.pdf")):
                 resolved = path.resolve()
                 if resolved.is_relative_to(root):
                     papers.append(dict(path=str(resolved), filename=path.name, bytes=path.stat().st_size))
-        return dict(papers=papers[:500], total=len(papers))
+        return dict(papers=papers[offset:offset + limit], total=len(papers),
+                    next_offset=offset + limit if offset + limit < len(papers) else None)
 
     def create_run(self, paper, supporting_information=None, dataset_name="Paper extraction",
                    curator_name="", curator_email="", idempotency_key=None):
@@ -105,7 +115,7 @@ class Pipeline:
             raise ValueError("At most 32 source documents may be ingested in one run")
         paths = [self.paper_path(name) for name in names]
         if paths[0].suffix.lower() != ".pdf":
-            raise ValueError("The main article must be a PDF; XLSX and TeX are supporting information")
+            raise ValueError("The main article must be a PDF; XLSX, TeX and CIF are supporting information")
         hashes = [digest(p) for p in paths]
         if len(set(hashes)) != len(hashes):
             raise ValueError("Source documents are duplicated")

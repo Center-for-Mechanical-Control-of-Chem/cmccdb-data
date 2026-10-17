@@ -233,6 +233,7 @@ def workbook_plan(pipeline, run, assembled, allow_partial=False):
     schema = table_sheet("Schema", ["Property", "Value"],
         [["Schema SHA256", audit["manifest"]["schema_sha256"]], ["Harness version", "0.1.0"],
          ["Percentages", "50% is stored as 50, not 0.5"],
+         ["Canonical units", "The schema converts quantities to canonical units (for example RPM to Hz). Original values and units remain in cited worker candidates and the audit."],
          ["Audit attachment", "extraction-audit.json.gz (lossless compressed JSON)"],
          ["Edits", "An edited value must be revalidated and its evidence/review decision reconsidered"]], [28, 90])
     labels = {e["key"]: e["data"]["label"] for e in audit["experiments"]}
@@ -246,13 +247,33 @@ def workbook_plan(pipeline, run, assembled, allow_partial=False):
         inputs = "; ".join(next((i["value"] for i in c.get("identifiers", []) if i.get("type") == "NAME"), "Unidentified")
             for c in components)
         products = [p for outcome in reaction.get("outcomes", []) for p in outcome.get("products", [])]
-        yields = [str(m["percentage"]["value"]) + "%" for p in products for m in p.get("measurements", [])
-                  if m.get("type") == "YIELD" and "percentage" in m]
+        measurements = []
+        for product in products:
+            label = next((i["value"] for i in product.get("identifiers", []) if i.get("type") == "NAME"), "Product")
+            for measurement in product.get("measurements", []):
+                kind = str(measurement.get("type", "CUSTOM")).replace("_", " ").lower()
+                if "percentage" in measurement:
+                    value = str(measurement["percentage"]["value"]) + "%"
+                elif "string_value" in measurement:
+                    value = measurement["string_value"]
+                elif "amount" in measurement:
+                    value = "; ".join(quantity(v) for v in measurement["amount"].values() if isinstance(v, dict) and "value" in v)
+                else:
+                    value = "See ReactionData for the source observation"
+                measurements.append(f"{label}: {kind} — {value}")
+        for outcome in reaction.get("outcomes", []):
+            if "conversion" in outcome:
+                measurements.append("Outcome conversion: " + str(outcome["conversion"]["value"]) + "%")
         overview_rows.append([key, labels[key], inputs, mech.get("type", ""), quantity(mech.get("frequency", {})),
-                              quantity(mech.get("duration", {})), "; ".join(yields), reaction["reaction_id"]])
-    overview = table_sheet("Overview", ["Experiment", "Record", "Inputs", "Reactor", "Frequency", "Duration", "Yield", "Reaction ID"],
-        overview_rows, [20, 40, 80, 24, 22, 22, 20, 48])
+                              quantity(mech.get("duration", {})), "; ".join(measurements), reaction["reaction_id"]])
+    overview = table_sheet("Overview", ["Experiment", "Record", "Inputs", "Reactor", "Frequency", "Duration", "Reported measurements", "Reaction ID"],
+        overview_rows, [20, 40, 80, 24, 22, 22, 85, 48])
     overview["rows"].insert(1, ["#!", "Read-only overview", "Edit ReactionData and revalidate. See Review for incomplete coverage."])
+    marker = getattr(dataset_constructor, "DATASET_METADATA_MARKER", None)
+    if marker != "Dataset (v1)":
+        raise ValueError("XLSX dataset metadata requires the matching cmccdb-schema metadata converter update")
+    overview["rows"][1:1] = [["#!", marker, field, assembled["dataset"].get(field, "")]
+                              for field in ("name", "description")]
     sheets = [overview, data, review, evidence, sources, schema]
     if assembled.get("chemistry_report"):
         chemistry_rows = []
@@ -451,17 +472,22 @@ def export_run(pipeline, run, assembled, allow_partial, *, auxiliary_files=None,
         token = original.dataset_id.removeprefix("cmcc_dataset-")
         actual = dataset_constructor.DatasetConstructor.enumerate_spreadsheet(
             str(revision / "extraction.xlsx"), name=original.name, id=token)
-        # The constructor does not carry a Dataset description from Excel.
-        actual.description = original.description
+        original_metadata = type(original)()
+        original_metadata.CopyFrom(original)
+        original_metadata.ClearField("reactions")
+        actual_metadata = type(actual)()
+        actual_metadata.CopyFrom(actual)
+        actual_metadata.ClearField("reactions")
         # Header grouping may reorder experiments. Match by persistent reaction ID.
-        if (len(original.reactions) != len(actual.reactions) or
+        if (original_metadata != actual_metadata or
+            len(original.reactions) != len(actual.reactions) or
             len({r.reaction_id for r in actual.reactions}) != len(actual.reactions) or
             {r.reaction_id: r for r in original.reactions} != {r.reaction_id: r for r in actual.reactions}):
             # Keep the mismatched bytes and expected/actual data for diagnosis;
             # they have no successful receipt and cannot enter a upload batch.
             (revision / "round-trip-actual.json").write_text(canonical(
                 json_format.MessageToDict(actual, preserving_proto_field_name=True)), encoding="utf-8")
-            raise ValueError("XLSX round-trip changed scientific data; export withheld")
+            raise ValueError("XLSX round-trip changed scientific data or dataset metadata; export withheld")
         # Match the interface's current per-file upload limit. Archive the
         # complete audit; never truncate evidence to fit an upload silently.
         upload_errors = [f"{name} exceeds the current 5 MiB per-file contribution limit"

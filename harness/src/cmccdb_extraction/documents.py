@@ -1,4 +1,4 @@
-"""Read-only PDF indexing and visual grounding through Poppler.
+"""Read-only source indexing and PDF visual grounding through Poppler.
 
 No text, caption, or embedded PDF instruction is executed. Original files are
 hashed and copied to the run so later edits cannot silently change citations.
@@ -12,6 +12,9 @@ import subprocess
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
+
+CIF_MAX_BYTES = 20 * 1024 * 1024
+CIF_MAX_LINES = 500_000
 
 
 def digest(path: Path) -> str:
@@ -76,8 +79,55 @@ def index_pdf(path: Path, poppler_bin: str | None = None) -> dict:
                          if replacements else [])
 
 
+def index_cif(path: Path) -> dict:
+    """Cite original UTF-8 CIF lines without parsing or interpreting chemistry.
+
+    Hash the exact bounded bytes used for the index. Blank lines are omitted
+    from search, but their original file-line positions are never renumbered.
+    Semicolon-delimited values, comments, uncertainties and whitespace remain
+    source text; no crystal, graph, units or SMILES are synthesized here.
+    """
+    try:
+        with path.open("rb") as stream:
+            payload = stream.read(CIF_MAX_BYTES + 1)
+    except OSError as error:
+        raise ValueError(f"Cannot read CIF source: {error}") from error
+    if len(payload) > CIF_MAX_BYTES:
+        raise ValueError("CIF text exceeds the 20 MiB indexing limit")
+    try:
+        text = payload.decode("utf-8", errors="strict")
+    except UnicodeDecodeError as error:
+        raise ValueError("CIF must be valid UTF-8 source text; bytes are not transcoded") from error
+    if re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", text):
+        raise ValueError("CIF source contains invalid control characters")
+    if not text.strip():
+        raise ValueError("CIF source contains no nonblank file lines")
+    count = text.count("\n") + text.count("\r") - text.count("\r\n") + 1
+    if text.endswith(("\n", "\r")):
+        count -= 1
+    if count > CIF_MAX_LINES:
+        raise ValueError("CIF source exceeds the 500000-line indexing limit")
+    sha = hashlib.sha256(payload).hexdigest()
+    sid = "src-" + sha[:24]
+    lines = []
+    # Only physical CR/LF endings delimit original CIF file lines. Unicode
+    # separators within a quoted value must not create fictional locations.
+    for number, value in enumerate(re.split(r"\r\n|\r|\n", text), 1):
+        if value.strip():
+            lines.append(dict(evidence_id=f"{sid}:p0001:l{number:06d}", source_id=sid,
+                page=1, text=value, bbox=None, kind="text", file_line=number))
+    return dict(source_id=sid, sha256=sha, filename=path.name, source_format="cif",
+        pages=[dict(evidence_id=sid+":p0001", source_id=sid, page=1,
+                    kind="text_file", text="", text_lines=len(lines), needs_visual_reading=False)],
+        lines=lines, doi_hint=None, index_version="cif-utf8-lines-v1",
+        coordinate_system="Original UTF-8 file line numbers; CIF is not parsed or executed",
+        text_substitutions={}, warnings=[
+            "CIF is original source text. Crystal assignments, uncertainties, connectivity and SMILES require source-aware expert review; no chemical structure is inferred by indexing."
+        ])
+
+
 def index_source(path: Path, poppler_bin: str | None = None) -> dict:
-    """Index original SI cells/lines without evaluating formulas or TeX commands.
+    """Index original SI cells/lines without evaluating source content.
 
     Non-PDF locations carry sheet/cell or file-line coordinates, never fictional
     PDF coordinates. Charts still require an independently reviewed image source.
@@ -87,6 +137,8 @@ def index_source(path: Path, poppler_bin: str | None = None) -> dict:
         result = index_pdf(path, poppler_bin)
         result["source_format"] = "pdf"
         return result
+    if extension == ".cif":
+        return index_cif(path)
     sha = digest(path)
     sid = "src-" + sha[:24]
     pages, lines, warnings = [], [], []
@@ -155,7 +207,7 @@ def index_source(path: Path, poppler_bin: str | None = None) -> dict:
         version = "xlsx-rows-v1"
         warnings.append("Formula caches are source data, not recalculated results; charts and images are not indexed as numerical measurements")
     else:
-        raise ValueError("Supported source formats are PDF, XLSX supporting information, and UTF-8 TeX")
+        raise ValueError("Supported source formats are PDF, XLSX supporting information, UTF-8 TeX and UTF-8 CIF")
     return dict(source_id=sid, sha256=sha, filename=path.name, pages=pages, lines=lines,
         doi_hint=None, index_version=version, source_format=extension[1:],
         coordinate_system=coordinate_system, text_substitutions={}, warnings=warnings)

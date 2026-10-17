@@ -53,12 +53,23 @@ for extraction. Use the supplied generated protobuf files; generating new ones
 is part of schema development, rather than harness setup.
 
 This guide describes the chemistry-policy harness with policy version
-`cmccdb-chemistry-dispatch-2026-10-10`. Its matching schema includes typed spreadsheet
+`cmccdb-chemistry-dispatch-2026-10-13`. Its matching schema includes typed spreadsheet
 string handling. Product crystal information requires
 `ProductCompound.crystal_parameters`; reported cell lengths in angstroms require
 `LengthUnit.ANGSTROM`. The manager checks these capabilities before extracting
 fields that need them. Obtain compatible revisions or companion patches from
 the maintainer if those checks fail.
+
+Matching schema revisions also support the reserved `#! / Dataset (v1)` comment
+rows for dataset name and description. The exporter checks actual parsed
+metadata, rather than replacing a lost description during its round-trip test.
+`get_capabilities` reports `dataset_metadata_supported` and gates `xlsx_ready`.
+
+An unknown numerical input amount can be represented by a source-grounded
+`Amount.unmeasured` annotation with inferred basis and explicit no-imputation
+reasoning. A null unreported claim remains an abstention. Do not fabricate mass,
+moles or zero to satisfy validation. For source-named mixtures with unknown
+constituents, preserve their identities and unresolved composition separately.
 
 ## 2. Install the dependencies
 
@@ -171,6 +182,7 @@ Reconnect the MCP connection after configuration changes. Ask your model to call
 | `pdf_ready` | `true`; otherwise inspect `pdf_errors` and Poppler paths. |
 | `rdkit_ready` | `true`; real molecular structure checks are required. |
 | `schema_string_patch_present` | `true`; the installed schema has the required typed string converter. |
+| `dataset_metadata_supported` | `true`; the installed converter preserves the reserved dataset name/description rows. |
 | `xlsx_ready` | `true` for an Excel workflow; inspect `xlsx_error` if false. |
 | `chemical_review_required` | `true`. |
 | `agent_policy.version` | `cmccdb-chemistry-dispatch-2026-10-10` for this revision. |
@@ -194,9 +206,10 @@ papers/
     supporting-information.pdf
     measurements.xlsx
     methods.tex
+    structures.cif
 ```
 
-The main article must be PDF. SI may be PDF, `.xlsx` or UTF-8 `.tex`. Extract
+The main article must be PDF. SI may be PDF, `.xlsx`, UTF-8 `.tex` or UTF-8 `.cif`. Extract
 ZIP archives into the allowed root beforehand and retain the archive/member
 identity in the audit notes. Supply only the files belonging to this paper when
 creating its run.
@@ -206,7 +219,21 @@ diagrams need visual reading; there is no automatic OCR or automatic structure
 recognition. XLSX SI keeps original sheets, row numbers, cells, formulas and
 existing cached results distinct. Formula text and TeX are never executed.
 Workbook charts and embedded images need separate visual inspection in the
-host; `view_page` provides PDF pixels and does not render XLSX or TeX sources.
+host; `view_page` provides PDF pixels and does not render XLSX, TeX or CIF sources.
+
+CIF files are archived byte for byte and indexed as original file lines, including
+comments, uncertainties and multiline-value delimiters. Use `read_source_page`
+with logical `page=1` and follow its `next_offset`, or cite exact `file_line`
+locations with `read_evidence`. CIF indexing does not parse chemistry or produce
+SMILES: expert workers must interpret the source and verify crystal assignments.
+CIF sources must be valid UTF-8, no larger than 20 MiB or 500,000 physical lines.
+Invalid or oversized sources fail explicitly; their bytes are never transcoded.
+Video evidence and ZIP containers are not indexed directly.
+
+For a corpus, call `list_papers(offset=0, limit=500)` and follow `next_offset`
+until it is `null`; `total` always counts all PDFs in the configured roots.
+Keep the source inventory unchanged while paging. Discovery lists PDFs, so include
+the corresponding native SI paths explicitly when creating each run.
 
 ## 5. Ask the manager to run the extraction
 
@@ -218,13 +245,15 @@ authors and experimenters are separate schema attributions.
 Use the cmccdb-extraction MCP server to extract
 example-study/article.pdf with supporting information:
 example-study/supporting-information.pdf,
-example-study/measurements.xlsx and example-study/methods.tex.
+example-study/measurements.xlsx, example-study/methods.tex and
+example-study/structures.cif.
 
 Dataset name: REPLACE_WITH_DATASET_NAME
 Curator name: REPLACE_WITH_CURATOR_NAME
 Curator email: REPLACE_WITH_CURATOR_EMAIL
 
 First call get_capabilities and confirm this installation can export XLSX.
+When discovering a corpus, follow list_papers.next_offset until null.
 Create one run for this source bundle and load extraction_manager for its run_id.
 Inventory the complete article and SI before installing the immutable search plan.
 Account for all experiments, controls, repeated measurements and excluded material.
